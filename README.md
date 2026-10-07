@@ -11,12 +11,12 @@
 ## 완료한 페이지 (2026-10-07)
 
 - [x] 홈 및 공통 메뉴
-- [x] 신규 설치 핵심 절차 **(1차 요약본)**
-- [x] 설치 업데이트 핵심 절차 **(1차 요약본)**
+- [x] 신규 설치 **(1차 상세 번역 + 원본 스크린샷 연결)**
+- [x] 설치 업데이트 **(1차 상세 번역 + 원본 스크린샷 연결)**
 - [x] HD Overhaul **(1차 요약본)**
 - [x] 번역 정책
 - [x] 문제 해결 목차
-- [x] Self Help 안내 **(원본의 예/아니오 분기 연결)**
+- [x] Self Help **(초기 진단 분기 + SFSE/크래시/Documents 상세 페이지)**
 - [x] Wabbajack Issues **(주요 오류 설명)**
 - [x] Mod Organizer Issues **(주요 오류 설명)**
 - [x] Ingame Issues **(주요 오류 설명)**
@@ -24,11 +24,12 @@
 ## 남은 작업
 
 - [ ] Self Help 모든 질문/결과 페이지의 현지화·검수
-- [ ] 설치·업데이트 가이드의 이미지 및 모든 예외 분기 번역
+- [ ] 설치·업데이트 가이드의 남은 예외 분기 번역
 - [x] Controller / Ultrawide / Linux **(1차 요약본)**
 - [x] Incompatible Apps **(1차 요약본)**
 - [ ] Modifying Install
-- [ ] Optimization / Patch Notes / F.A.Q.
+- [x] General Performance / FPS Boosts / F.A.Q. **(1차 번역)**
+- [ ] Menu Lag / Potato PC / Default Settings / Patch Notes
 - [ ] Wiki / Gameplay / Team / Credits
 - [ ] 사이트 공개 배포 성공 검증
 - [ ] 원문 업데이트 감지 방식 구축
@@ -55,3 +56,7 @@ HTML에 `<meta name="robots" content="noindex,nofollow">`를 삽입했습니다.
 - 임의의 설치 경로와 실행 순서를 만들어 내지 않음
 - 위험한 보안 설정 변경은 필요 최소한만 고려
 - 사이트 가이드 번역과 게임 본편 번역은 별도
+
+## 이미지 정책
+
+원본 가이드의 설치 스크린샷은 저장소에 복제하지 않고 `genesismodlist.com`이 호스팅하는 이미지 URL을 직접 참조합니다. 따라서 원본 이미지가 교체되거나 삭제되면 한국어판에서도 표시되지 않을 수 있습니다.
