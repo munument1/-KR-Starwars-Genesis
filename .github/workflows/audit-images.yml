@@ -1,6 +1,8 @@
 name: Audit Genesis images
 
 on:
+  schedule:
+    - cron: "37 2 * * 1"
   workflow_dispatch:
   push:
     branches: [main]
