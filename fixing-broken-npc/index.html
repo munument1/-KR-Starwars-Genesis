@@ -1,0 +1,17 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>깨진 NPC 복구 | Genesis 한국어 가이드</title><link rel="stylesheet" href="../assets/style.css"></head><body><div data-nav></div><main class="wrap"><div class="kicker">EXISTING SAVE · NPC RESET</div><h1>깨진 NPC 복구</h1><p class="meta">원문 확인: 2026-10-07 · <a href="https://genesismodlist.com/fixing-broken-npc/" target="_blank" rel="noopener">공식 원문 ↗</a></p>
+<p>기존 세이브를 새 Genesis 버전으로 올린 뒤 NPC의 종족·머리·의상 등이 잘못 보이거나, 추가 모드 때문에 NPC 레코드가 꼬인 경우에 사용하는 수동 초기화 절차입니다.</p>
+<div class="warning"><strong>먼저 수동 저장을 새 슬롯에 만드세요.</strong> 콘솔에서 다른 오브젝트를 선택한 상태로 명령을 실행하면 엉뚱한 대상을 건드릴 수 있습니다.</div>
+<ol class="steps">
+<li>문제가 있는 NPC 바로 앞에서 콘솔(<code>~</code> 또는 키보드 설정에 따른 콘솔 키)을 엽니다.</li>
+<li>NPC를 클릭하고 화면 중앙 선택 정보에 <strong>NPC</strong>가 표시되는지 확인합니다.</li>
+<li><code>disable</code>을 입력합니다.</li>
+<li>콘솔을 닫았을 때 NPC가 사라졌는지 확인합니다. 사라지지 않았다면 잘못 선택한 것이므로 저장을 다시 불러와 처음부터 진행합니다.</li>
+<li>같은 대상을 유지한 상태로 콘솔을 다시 열어 <code>enable</code>, 이어서 <code>resetinventory</code>를 입력합니다.</li>
+<li>NPC가 새 외형·의상으로 정상화됐는지 확인합니다.</li>
+</ol>
+<h2>그래도 안 될 때</h2><p>원문은 다음 명령을 순서대로 추가 시험하도록 안내합니다.</p>
+<pre><code>resetinventory
+recycleactor
+disable
+enable</code></pre>
+<div class="notice">8.8.3 이후에는 일부 기존 세이브 NPC 문제를 자동으로 고치는 <strong>Existing Save Cleaner</strong>가 추가되어, 먼저 numpad 1을 눌러보는 것이 더 간단합니다.</div><div class="footer"><a href="../existing-save-issues/">돌아가기 →</a></div></main><script src="../assets/site.js"></script></body></html>
