@@ -1,0 +1,170 @@
+{
+  "schema": 1,
+  "description": "원본 Genesis 사이트에서 한국어판 갱신 여부를 확인할 주요 페이지",
+  "sources": [
+    {
+      "name": "New Install",
+      "url": "https://genesismodlist.com/install/"
+    },
+    {
+      "name": "Updating Install",
+      "url": "https://genesismodlist.com/updating/"
+    },
+    {
+      "name": "HD Overhaul",
+      "url": "https://genesismodlist.com/hd-overhaul-install/"
+    },
+    {
+      "name": "Translations",
+      "url": "https://genesismodlist.com/translations/"
+    },
+    {
+      "name": "Uninstall",
+      "url": "https://genesismodlist.com/uninstallation/"
+    },
+    {
+      "name": "Self Help",
+      "url": "https://genesismodlist.com/self-help/"
+    },
+    {
+      "name": "Self Help 01",
+      "url": "https://genesismodlist.com/self-help-01/"
+    },
+    {
+      "name": "Self Help 02",
+      "url": "https://genesismodlist.com/self-help-02/"
+    },
+    {
+      "name": "Self Help 03",
+      "url": "https://genesismodlist.com/self-help-03/"
+    },
+    {
+      "name": "Self Help Shattered Space",
+      "url": "https://genesismodlist.com/self-help-shattered-space/"
+    },
+    {
+      "name": "Self Help End",
+      "url": "https://genesismodlist.com/self-help-end/"
+    },
+    {
+      "name": "SFSE Loader Issues",
+      "url": "https://genesismodlist.com/sfse-loader-issues/"
+    },
+    {
+      "name": "Launch Crashing",
+      "url": "https://genesismodlist.com/launch-crashing/"
+    },
+    {
+      "name": "Starfield Launch Issues",
+      "url": "https://genesismodlist.com/starfield-launch-issues/"
+    },
+    {
+      "name": "Manual Documents",
+      "url": "https://genesismodlist.com/manual-documents-step/"
+    },
+    {
+      "name": "Wabbajack Issues",
+      "url": "https://genesismodlist.com/wabbajack-issues/"
+    },
+    {
+      "name": "Mod Organizer Issues",
+      "url": "https://genesismodlist.com/mod-organizer-issues/"
+    },
+    {
+      "name": "Ingame Issues",
+      "url": "https://genesismodlist.com/ingame-issues/"
+    },
+    {
+      "name": "Incompatible Apps",
+      "url": "https://genesismodlist.com/incompatible-apps/"
+    },
+    {
+      "name": "Controller Support",
+      "url": "https://genesismodlist.com/controller-support/"
+    },
+    {
+      "name": "Ultrawide Support",
+      "url": "https://genesismodlist.com/ultrawide-support/"
+    },
+    {
+      "name": "Linux Support",
+      "url": "https://genesismodlist.com/linux-support/"
+    },
+    {
+      "name": "Modifying Install",
+      "url": "https://genesismodlist.com/modifying-install/"
+    },
+    {
+      "name": "General Performance",
+      "url": "https://genesismodlist.com/performance/"
+    },
+    {
+      "name": "Menu Lag",
+      "url": "https://genesismodlist.com/menu-lag/"
+    },
+    {
+      "name": "FPS Boosts",
+      "url": "https://genesismodlist.com/fps-boosts/"
+    },
+    {
+      "name": "Potato PC",
+      "url": "https://genesismodlist.com/potato-pc-settings/"
+    },
+    {
+      "name": "Default Settings",
+      "url": "https://genesismodlist.com/settings/"
+    },
+    {
+      "name": "FAQ",
+      "url": "https://genesismodlist.com/f-a-q/"
+    },
+    {
+      "name": "Wiki",
+      "url": "https://genesismodlist.com/wiki/"
+    },
+    {
+      "name": "Controls & Keybinds",
+      "url": "https://genesismodlist.com/controls-keybinds/"
+    },
+    {
+      "name": "Tips & Tricks",
+      "url": "https://genesismodlist.com/tips-tricks/"
+    },
+    {
+      "name": "Quests",
+      "url": "https://genesismodlist.com/quests/"
+    },
+    {
+      "name": "Lore",
+      "url": "https://genesismodlist.com/lore/"
+    },
+    {
+      "name": "Core Gameplay Changes",
+      "url": "https://genesismodlist.com/core-gameplay-changes/"
+    },
+    {
+      "name": "The Team",
+      "url": "https://genesismodlist.com/the-team/"
+    },
+    {
+      "name": "Volunteer",
+      "url": "https://genesismodlist.com/volunteer/"
+    },
+    {
+      "name": "Credits",
+      "url": "https://genesismodlist.com/credits/"
+    },
+    {
+      "name": "Donate",
+      "url": "https://genesismodlist.com/donate/"
+    },
+    {
+      "name": "Patch Notes",
+      "url": "https://genesismodlist.com/patch-notes/"
+    },
+    {
+      "name": "Latest translated patch 8.8.31",
+      "url": "https://genesismodlist.com/8-8-31/"
+    }
+  ]
+}
