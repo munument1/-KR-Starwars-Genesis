@@ -32,8 +32,10 @@ https://munument1.github.io/-KR-Starwars-Genesis/
 - [ ] Self Help 모든 질문/결과 페이지의 현지화·검수
 - [ ] 설치·업데이트 가이드의 남은 예외 분기 번역 (일부 완료: 파일 누락 / Documents / 메인 메뉴 / 기존 세이브)
 - [x] HD Overhaul 상세 스크린샷/업데이트 예외 추가
-- [ ] 과거 패치노트 주요 버전 순차 번역
+- [x] 8.8.31 / 8.8.3 / 8.8.21 / 8.8.2 / 8.8.15 패치노트 번역
+- [ ] 더 오래된 패치노트 순차 번역
 - [x] Wiki / Gameplay / Team / Volunteer / Credits **(1차 번역)**
+- [x] Controls & Keybinds / Tips & Tricks / Quests / Lore / Difficulty
 - [ ] 원문 업데이트 감지 방식 구축
 - [x] Uninstall / Game Keys / Old Installer Migration / Downloads Cleaning **(1차 번역)**
 - [ ] 전체 페이지 링크/모바일 표시 최종 검수
