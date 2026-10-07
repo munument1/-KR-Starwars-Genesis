@@ -11,10 +11,11 @@ Star Wars Genesis 공식 사이트([genesismodlist.com](https://genesismodlist.c
 - [x] 홈
 - [x] 신규 설치 안내
 - [x] 업데이트 안내
+- [x] HD Overhaul 안내
 - [x] 번역 관련 안내
-- [ ] HD Overhaul
-- [ ] Self Help
-- [ ] Wabbajack Issues
+- [x] 지원 허브
+- [ ] Self Help 세부 분기
+- [ ] Wabbajack Issues 전체
 - [ ] Mod Organizer Issues
 - [ ] Ingame Issues
 - [ ] Incompatible Apps
@@ -38,4 +39,4 @@ Star Wars Genesis 공식 사이트([genesismodlist.com](https://genesismodlist.c
 
 ## 공개 방식
 
-정적 HTML로 작성되어 GitHub Pages에 바로 올릴 수 있습니다. 검색엔진에는 원본 대신 이 비공식 번역본이 노출되지 않도록 `noindex`를 적용합니다.
+정적 HTML로 작성되어 GitHub Pages에 바로 올릴 수 있습니다. 검색엔진에는 원본 대신 이 비공식 번역본이 노출되지 않도록 `noindex`와 `robots.txt`를 적용합니다.
