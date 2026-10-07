@@ -1,7 +1,7 @@
 <!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Mod Organizer 2 문제 해결 | Genesis 한국어 가이드</title><link rel="stylesheet" href="../assets/style.css"></head><body><div data-nav></div><main class="wrap">
 <div class="kicker">MOD ORGANIZER ISSUES · 상세 번역</div><h1>Mod Organizer 2 문제 해결</h1>
 <p class="meta">원문 확인: 2026-10-07 · <a href="https://genesismodlist.com/mod-organizer-issues/" target="_blank" rel="noopener">공식 원문 ↗</a></p>
-<p class="lead">MO2가 열리지 않거나 Genesis 실행이 실패할 때, 모드리스트 자체보다 Windows 런타임·보안·파일 권한·저장장치 환경을 먼저 배제하는 것이 공식 가이드의 방향입니다.</p>
+<figure class="guide-figure"><img class="guide-image" src="https://i0.wp.com/genesismodlist.com/wp-content/uploads/2024/12/image-12.png?resize=1024%2C389&ssl=1" alt="Mod Organizer Issues 배너"></figure><p class="lead">MO2가 열리지 않거나 Genesis 실행이 실패할 때, 모드리스트 자체보다 Windows 런타임·보안·파일 권한·저장장치 환경을 먼저 배제하는 것이 공식 가이드의 방향입니다.</p>
 
 <h2>일반 점검 순서</h2>
 <ol class="steps">
@@ -12,7 +12,7 @@
 <li><strong>다운로드 파일 차단 해제</strong><br>Genesis 설치 폴더에서 PowerShell의 <code>dir -Recurse | Unblock-File</code>을 사용하는 방법이 원문에 있습니다. 외부 다운로드 차단이 의심될 때만 사용하세요.</li>
 <li><strong>서드파티 백신 확인</strong><br>PowerShell에서 다음 명령으로 Windows Security가 인식하는 백신 목록을 볼 수 있습니다.<pre><code>Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct |
 Select-Object displayName, productState</code></pre>Defender 외 제품이 있으면 <a href="../incompatible-apps/">충돌 프로그램 안내</a>와 해당 제품의 격리 기록을 확인합니다.</li>
-<li><strong>충돌 앱 종료</strong><br>RTSS·오버레이·오디오·튜닝 도구 등이 원인인지 확인합니다.</li>
+<li><strong>충돌 앱 종료</strong><br>RTSS·오버레이·오디오·튜닝 도구 등이 원인인지 확인합니다.</li></ol><figure class="guide-figure narrow"><img class="guide-image" src="https://i0.wp.com/genesismodlist.com/wp-content/uploads/2026/01/d2d3fd74e31667e8b5432769e5037c72.png?resize=791%2C1117&ssl=1" alt="ModOrganizer.exe 보안 권한 설정 예시"><figcaption>원본 가이드의 ModOrganizer.exe 권한 설정 예시. 강한 권한 변경은 필요한 경우에만 적용하세요.</figcaption></figure><ol class="steps continuation" start="7">
 </ol>
 
 <h2>Documents 경로 문제</h2>
