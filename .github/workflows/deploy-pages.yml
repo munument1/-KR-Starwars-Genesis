@@ -1,0 +1,59 @@
+name: Publish Korean Genesis Guide
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: genesis-pages
+  cancel-in-progress: false
+
+jobs:
+  check-source:
+    runs-on: ubuntu-latest
+    outputs:
+      build_type: ${{ steps.pages.outputs.build_type }}
+    steps:
+      - name: Check current Pages publishing method
+        id: pages
+        uses: actions/github-script@v7
+        with:
+          script: |
+            try {
+              const { data } = await github.rest.repos.getPagesSite({
+                owner: context.repo.owner,
+                repo: context.repo.repo
+              });
+              const type = data.build_type || "unknown";
+              core.info("GitHub Pages source type: " + type);
+              core.setOutput("build_type", type);
+            } catch (error) {
+              core.warning("Could not inspect GitHub Pages configuration: " + error.message);
+              core.setOutput("build_type", "unknown");
+            }
+
+  deploy:
+    needs: check-source
+    if: needs.check-source.outputs.build_type == 'workflow'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out website
+        uses: actions/checkout@v4
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload static website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Publish website
+        id: deployment
+        uses: actions/deploy-pages@v4
