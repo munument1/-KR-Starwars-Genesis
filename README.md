@@ -38,6 +38,7 @@ https://munument1.github.io/-KR-Starwars-Genesis/
 - [x] Controls & Keybinds / Tips & Tricks / Quests / Lore / Difficulty
 - [ ] 원문 업데이트 감지 방식 구축
 - [x] Uninstall / Game Keys / Old Installer Migration / Downloads Cleaning **(1차 번역)**
+- [x] Steam Auto Update / Modded Starfield Cleanup / Multiple Characters / Broken NPC / Modified Save
 - [ ] 전체 페이지 링크/모바일 표시 최종 검수
 
 ## 원문 기준
