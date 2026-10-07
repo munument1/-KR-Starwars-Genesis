@@ -1,0 +1,13 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>울트라와이드 지원 | Genesis 한국어 가이드</title><link rel="stylesheet" href="../assets/style.css"></head><body><div data-nav></div><main class="wrap"><div class="kicker">ULTRAWIDE SUPPORT</div><h1>울트라와이드 지원</h1><p class="meta">원문 확인: 2026-10-07 · <a href="https://genesismodlist.com/ultrawide-support/" target="_blank" rel="noopener">공식 원문 ↗</a></p>
+<p class="lead">Genesis의 일부 HUD 교체 모드는 일반 화면 비율을 기준으로 만들어져 있습니다. 울트라와이드에서는 UI의 일부가 바닐라 디자인으로 나타날 수 있습니다.</p>
+<ol class="steps"><li>Mod Organizer 2의 <strong>Ultrawide Support</strong> 분류에서 <code>[Ultrawide] Hud Fix</code>를 활성화합니다.</li><li><code>Documents\My Games\Starfield\StarfieldCustom.ini</code> 파일을 백업합니다.</li><li><code>[Display]</code> 아래에 모니터 비율에 맞는 <code>fWideAspectLimit</code>을 설정합니다.</li><li><code>[Interface]</code>의 <code>fSafeZoneXWide</code> 값은 <a href="https://genesismodlist.com/ultrawide-support/" target="_blank" rel="noopener">공식 페이지 계산기</a>에서 확인합니다.</li></ol>
+<h2>화면비별 설정값</h2>
+<table><thead><tr><th>해상도</th><th>fWideAspectLimit</th></tr></thead><tbody>
+<tr><td>1920×1080 / 2560×1440 / 3840×2160</td><td><code>1.7778</code></td></tr>
+<tr><td>3440×1440</td><td><code>2.3889</code></td></tr>
+<tr><td>3840×1600</td><td><code>2.4000</code></td></tr>
+<tr><td>5120×1440</td><td><code>3.55556</code></td></tr>
+<tr><td>5120×1600 / 3840×1200</td><td><code>3.2000</code></td></tr>
+<tr><td>2560×1080 / 5120×2160</td><td><code>2.3704</code></td></tr>
+</tbody></table><p>INI 파일에서는 예를 들어 <code>fWideAspectLimit=2.3889</code>처럼 등호를 붙여 입력합니다.</p>
+<div class="warning">표의 화면비 값은 원문 기준입니다. Safe Zone 값은 해상도에 따라 별도로 계산해야 하며 임의의 값을 입력하지 마세요.</div><div class="footer">Star Wars Genesis 비공식 한국어 가이드 · <a href="../support/">지원 목차로 돌아가기</a></div></main><script src="../assets/site.js"></script></body></html>
