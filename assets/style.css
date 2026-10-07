@@ -5,3 +5,21 @@ table{border-collapse:collapse;width:100%;background:var(--panel);margin:1em 0 1
 .guide-figure{margin:22px 0;text-align:center}.guide-image{display:block;max-width:100%;height:auto;margin:0 auto;border-radius:10px;border:1px solid var(--line);background:#080b12}.guide-figure.narrow .guide-image{max-width:720px}.guide-figure.banner .guide-image{width:100%;border-radius:8px}figcaption{margin-top:8px;color:var(--muted);font-size:.86rem}.card code{font-size:.88em}
 
 .flow{display:grid;gap:12px;margin:20px 0}.flow-node{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}.flow-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}.flow-actions a,.flow-actions span{padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:#0d1420}.flow-actions span{color:var(--muted)}
+
+
+/* Final mobile pass */
+pre{max-width:100%;overflow-x:auto;background:#151d2a;border:1px solid var(--line);border-radius:8px;padding:12px;line-height:1.5}
+pre code{border:0;background:transparent;padding:0;white-space:pre}
+@media(max-width:650px){
+  .nav{flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;padding:10px 12px;scrollbar-width:none}
+  .nav::-webkit-scrollbar{display:none}
+  .nav a{white-space:nowrap;flex:0 0 auto}
+  .brand{margin-right:4px}
+  .wrap{padding:24px 14px 60px}
+  .grid{grid-template-columns:1fr}
+  .steps li{padding:16px 14px 16px 54px}
+  .steps li:before{left:14px}
+  .card{padding:16px}
+  .flow-actions{flex-direction:column}
+  .flow-actions a,.flow-actions span{width:100%}
+}
