@@ -165,6 +165,138 @@
     {
       "name": "Latest translated patch 8.8.31",
       "url": "https://genesismodlist.com/8-8-31/"
+    },
+    {
+      "name": "Star Wars Genesis",
+      "url": "https://genesismodlist.com/"
+    },
+    {
+      "name": "초보자 가이드",
+      "url": "https://genesismodlist.com/beginner-guides/"
+    },
+    {
+      "name": "Downloads 폴더 정리",
+      "url": "https://genesismodlist.com/cleaning/"
+    },
+    {
+      "name": "난이도",
+      "url": "https://genesismodlist.com/difficulty/"
+    },
+    {
+      "name": "기존 세이브 업데이트 주의",
+      "url": "https://genesismodlist.com/existing-save-issues/"
+    },
+    {
+      "name": "깨진 NPC 복구",
+      "url": "https://genesismodlist.com/fixing-broken-npc/"
+    },
+    {
+      "name": "Starfield 할인 키 안내",
+      "url": "https://genesismodlist.com/game-keys/"
+    },
+    {
+      "name": "설치 후 파일 누락",
+      "url": "https://genesismodlist.com/missing-mod-organizer-after-install/"
+    },
+    {
+      "name": "기존 Starfield 모드 흔적 정리",
+      "url": "https://genesismodlist.com/modded-starfield-cleanup/"
+    },
+    {
+      "name": "Modified Save 관리",
+      "url": "https://genesismodlist.com/modified-save-guide/"
+    },
+    {
+      "name": "여러 캐릭터 플레이",
+      "url": "https://genesismodlist.com/multiple-characters/"
+    },
+    {
+      "name": "구형 설치 마이그레이션",
+      "url": "https://genesismodlist.com/old-installer-migration/"
+    },
+    {
+      "name": "8.8.15 패치노트",
+      "url": "https://genesismodlist.com/8-8-15/"
+    },
+    {
+      "name": "8.8.2 패치노트",
+      "url": "https://genesismodlist.com/8-8-2/"
+    },
+    {
+      "name": "8.8.21 패치노트",
+      "url": "https://genesismodlist.com/8-8-21/"
+    },
+    {
+      "name": "8.8.3 패치노트",
+      "url": "https://genesismodlist.com/8-8-3/"
+    },
+    {
+      "name": "메인 메뉴에서 입력 불가",
+      "url": "https://genesismodlist.com/stuck-in-main-menu/"
+    },
+    {
+      "name": "Steam 자동 업데이트 끄기",
+      "url": "https://genesismodlist.com/turning-off-automatic-updates/"
+    },
+    {
+      "name": "페이지 파일 설정",
+      "url": "https://genesismodlist.com/page-file-setup/"
+    },
+    {
+      "name": "드라이브 루트 설명",
+      "url": "https://genesismodlist.com/root-explanation/"
+    },
+    {
+      "name": "서드파티 백신 문제 해결",
+      "url": "https://genesismodlist.com/bitdefender-troubleshooting/"
+    },
+    {
+      "name": "MO2 다운로드 연결 설정",
+      "url": "https://genesismodlist.com/mod-organizer-configuration/"
+    },
+    {
+      "name": "VC++ 런타임 설치",
+      "url": "https://genesismodlist.com/vc-setup/"
+    },
+    {
+      "name": "Documents 폴더 누락 해결",
+      "url": "https://genesismodlist.com/missing-documents-folder/"
+    },
+    {
+      "name": "HD Overhaul 업데이트",
+      "url": "https://genesismodlist.com/hd-overhaul-update/"
+    },
+    {
+      "name": "포스 능력과 콘솔 명령어",
+      "url": "https://genesismodlist.com/force-powers/"
+    },
+    {
+      "name": "방어구 자료",
+      "url": "https://genesismodlist.com/armors/"
+    },
+    {
+      "name": "진영 자료",
+      "url": "https://genesismodlist.com/factions/"
+    },
+    {
+      "name": "조선소 상인",
+      "url": "https://genesismodlist.com/shipyard-vendors/"
+    },
+    {
+      "name": "무기 자료",
+      "url": "https://genesismodlist.com/weapon-wiki/"
+    },
+    {
+      "name": "의류 자료",
+      "url": "https://genesismodlist.com/clothing/"
+    },
+    {
+      "name": "자원 자료",
+      "url": "https://genesismodlist.com/resources/"
+    },
+    {
+      "name": "방어구 밸런스",
+      "url": "https://genesismodlist.com/armor-balance/"
     }
   ]
 }

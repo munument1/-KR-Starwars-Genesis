@@ -206,6 +206,171 @@
       "name": "Latest translated patch 8.8.31",
       "sha256": "dd84a05d98574dd6087a7fae90cf8e7d1fd2b38b719f38b030040486a9e979fd",
       "text_length": 1246
+    },
+    "https://genesismodlist.com/": {
+      "name": "Star Wars Genesis",
+      "sha256": "50bccbc8c77b41dd33fd4bcb4732ccfa8c2afccfc5704ef9377541b5074dfc5b",
+      "text_length": 6702
+    },
+    "https://genesismodlist.com/beginner-guides/": {
+      "name": "초보자 가이드",
+      "sha256": "d104ac6d94a7820170164309e75fbf428cc302f662a1db42430f5db2d240254d",
+      "text_length": 369
+    },
+    "https://genesismodlist.com/cleaning/": {
+      "name": "Downloads 폴더 정리",
+      "sha256": "49c454eb8fc835454d5fbf6e9cda775c68e0b7beb7aaff3de31cd6ca1e06a168",
+      "text_length": 575
+    },
+    "https://genesismodlist.com/difficulty/": {
+      "name": "난이도",
+      "sha256": "5d21caee71028a85ebfdd6edd251737c2da1e514e658ca2be46aacd737d29a56",
+      "text_length": 509
+    },
+    "https://genesismodlist.com/existing-save-issues/": {
+      "name": "기존 세이브 업데이트 주의",
+      "sha256": "16a37af61dfaaccf0c9e32b5b05e83e08c47cbc85ef8e37b7562dafcd5f1b193",
+      "text_length": 8272
+    },
+    "https://genesismodlist.com/fixing-broken-npc/": {
+      "name": "깨진 NPC 복구",
+      "sha256": "1c71a76f4d20f0e18ad4e4d33d48744791ef68c5751db7be941a39ea7660280f",
+      "text_length": 1057
+    },
+    "https://genesismodlist.com/game-keys/": {
+      "name": "Starfield 할인 키 안내",
+      "sha256": "0a02917c0bff0f0b4d59e888a7ecf3ed83b3fe72e5dece418e69e3ca120f5d0d",
+      "text_length": 954
+    },
+    "https://genesismodlist.com/missing-mod-organizer-after-install/": {
+      "name": "설치 후 파일 누락",
+      "sha256": "e40084e370a8a968c10871379a9c62a4f52606b39d7273cac5378f5ba56be0c6",
+      "text_length": 700
+    },
+    "https://genesismodlist.com/modded-starfield-cleanup/": {
+      "name": "기존 Starfield 모드 흔적 정리",
+      "sha256": "8dd3dc44297a1a7dab971362b9629fa256a7a3bff73e4d4050adf5f234fd9490",
+      "text_length": 504
+    },
+    "https://genesismodlist.com/modified-save-guide/": {
+      "name": "Modified Save 관리",
+      "sha256": "42671893a025fc8e0011bf54152d26a3b101b4beb978900cfb2e7ceb1dc21c09",
+      "text_length": 2387
+    },
+    "https://genesismodlist.com/multiple-characters/": {
+      "name": "여러 캐릭터 플레이",
+      "sha256": "33742b5f53a3342f0bdb280df130e274f8d09079d62137bf50106575c49aec4c",
+      "text_length": 970
+    },
+    "https://genesismodlist.com/old-installer-migration/": {
+      "name": "구형 설치 마이그레이션",
+      "sha256": "407cd67eaeb5021d29c82985043f8b74f7db10a1db603f727c62599c72e47302",
+      "text_length": 1986
+    },
+    "https://genesismodlist.com/8-8-15/": {
+      "name": "8.8.15 패치노트",
+      "sha256": "67ce2e2267537ae88fa8fed642dffcc6f25b68dcd13393f33c1f421c9aa65218",
+      "text_length": 1018
+    },
+    "https://genesismodlist.com/8-8-2/": {
+      "name": "8.8.2 패치노트",
+      "sha256": "d3be4768c9bfa8d7291ad654754611427ad27ac055cd0097f113469d3742be02",
+      "text_length": 11031
+    },
+    "https://genesismodlist.com/8-8-21/": {
+      "name": "8.8.21 패치노트",
+      "sha256": "c4bb70d9af16c2d16f4380ef2208b4c4ef8704c9686655aab2af4c8fab46fcd2",
+      "text_length": 1905
+    },
+    "https://genesismodlist.com/8-8-3/": {
+      "name": "8.8.3 패치노트",
+      "sha256": "60f536bce02efd8e50a5f65d487fe9aad5d158488095129486399184232bb337",
+      "text_length": 17766
+    },
+    "https://genesismodlist.com/stuck-in-main-menu/": {
+      "name": "메인 메뉴에서 입력 불가",
+      "sha256": "eee813c416bc315cc8c423efd87ede5b47195e3795609c6ac27f164ff283913b",
+      "text_length": 700
+    },
+    "https://genesismodlist.com/turning-off-automatic-updates/": {
+      "name": "Steam 자동 업데이트 끄기",
+      "sha256": "063e9b2fb2d6861be0c2515f431ea4b0aff0be6d0599b915a86566ba63f24bdb",
+      "text_length": 632
+    },
+    "https://genesismodlist.com/page-file-setup/": {
+      "name": "페이지 파일 설정",
+      "sha256": "671d6dcc03af6d7f856d2b0e1b896cfbccb574bd59c01a89b0d13a7832b0f787",
+      "text_length": 829
+    },
+    "https://genesismodlist.com/root-explanation/": {
+      "name": "드라이브 루트 설명",
+      "sha256": "bfbc444f63f725d22c6f8538c757f44cb3061a6fc92e054b3d6e900707947125",
+      "text_length": 691
+    },
+    "https://genesismodlist.com/bitdefender-troubleshooting/": {
+      "name": "서드파티 백신 문제 해결",
+      "sha256": "4be95b8db251f57cef867d2bd0d5e82db6cbaf38ad50d12b07cc84c65d988ae5",
+      "text_length": 1521
+    },
+    "https://genesismodlist.com/mod-organizer-configuration/": {
+      "name": "MO2 다운로드 연결 설정",
+      "sha256": "c71eea0de1b8c6647653271d21dd4c6a3bcb60cac3914cbd2c151305f7ede5d8",
+      "text_length": 1649
+    },
+    "https://genesismodlist.com/vc-setup/": {
+      "name": "VC++ 런타임 설치",
+      "sha256": "b186db1eac8dbe4cafd3c38f4f375ff0014a8e2b1e3c0f30cde1f4a3ce58efcf",
+      "text_length": 381
+    },
+    "https://genesismodlist.com/missing-documents-folder/": {
+      "name": "Documents 폴더 누락 해결",
+      "sha256": "28c103df033ac73231ba5be892b800457211b5fbfd98fe7d2f5eea15f276c731",
+      "text_length": 662
+    },
+    "https://genesismodlist.com/hd-overhaul-update/": {
+      "name": "HD Overhaul 업데이트",
+      "sha256": "9eb268567deaf571131c060564b4ead9988f0a2f4e61e044de7af62ab7b0492c",
+      "text_length": 437
+    },
+    "https://genesismodlist.com/force-powers/": {
+      "name": "포스 능력과 콘솔 명령어",
+      "sha256": "89881c8e888ded8a767857a9b74e4077fcae05f9b3da40c879001b9e8539b9a8",
+      "text_length": 158
+    },
+    "https://genesismodlist.com/armors/": {
+      "name": "방어구 자료",
+      "sha256": "3ccdbd0a098b32588ba3876639c062e062da54309509aedcb8c82c5a97a23cc5",
+      "text_length": 1204
+    },
+    "https://genesismodlist.com/factions/": {
+      "name": "진영 자료",
+      "sha256": "6ff9d27c5dd748ea8b9a672e00b8433ac7ade81c4df6d2002351491e9213eae9",
+      "text_length": 1857
+    },
+    "https://genesismodlist.com/shipyard-vendors/": {
+      "name": "조선소 상인",
+      "sha256": "02a35d99d55dc3bbbc827fb84c3cfe0dfb553cde89a82641cf5ced9f7fd865f6",
+      "text_length": 676
+    },
+    "https://genesismodlist.com/weapon-wiki/": {
+      "name": "무기 자료",
+      "sha256": "db400776747bb9819b88dccaa1280a9fe911fa45ee716109ea9520c091f63129",
+      "text_length": 4716
+    },
+    "https://genesismodlist.com/clothing/": {
+      "name": "의류 자료",
+      "sha256": "219d8f35c2cd91ee9b85116f9c0bceb0ce240401d2ccaf45b107c978f7afe556",
+      "text_length": 764
+    },
+    "https://genesismodlist.com/resources/": {
+      "name": "자원 자료",
+      "sha256": "0542c7339d7cb6a41e026b9865b42cefac2ba6b0794a2e885857a59d02d68f95",
+      "text_length": 123
+    },
+    "https://genesismodlist.com/armor-balance/": {
+      "name": "방어구 밸런스",
+      "sha256": "9277dc68c8076a76240c2b4226805c2a77944df44b06ea792793eea413fe2c53",
+      "text_length": 1828
     }
   }
 }

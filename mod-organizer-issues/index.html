@@ -32,4 +32,27 @@ Select-Object displayName, productState</code></pre>Defender 외 제품이 있�
 <h3>Plugins 순서가 섞임</h3><p>MO2의 Plugins 탭 상단에 있는 백업 복원 버튼으로 Genesis 기본 플러그인 순서를 복원합니다.</p>
 
 <div class="warning"><strong>보안/권한 주의:</strong> 원본에는 관리자 실행, Everyone 전체 권한, Controlled Folder Access 해제 같은 강한 조치도 포함됩니다. 이 한국어판은 먼저 차단 로그를 확인하고 <strong>필요한 폴더·프로세스에만 최소 범위 예외</strong>를 적용하도록 권장합니다.</div>
+
+
+
+
+
+<section class="source-supplement" aria-label="원문 대조 보완">
+<h2>원문 대조 보완</h2>
+<p class="meta">2026-10-07 원문 대조 · 아래는 기존 안내에서 빠졌던 핵심 정보를 한국어로 정리한 내용입니다. 당시 버전의 설명과 향후 계획을 구분해서 읽으세요. <a href="https://genesismodlist.com/mod-organizer-issues/" target="_blank" rel="noopener">상세 원문 ↗</a></p>
+<h3>추가 문제 해결 조치</h3><ul>
+<li>ModOrganizer.exe 및 Starfield.exe 속성에서 모든 사용자에 대한 Full Control 권한 부여 후 항상 관리자 권한으로 실행</li>
+<li>타사 백신 사용 시 원문의 Bitdefender 등 안내 페이지 및 비호환 앱 목록 확인 후 개발자(DeityVengy)에게 공유</li>
+<li>레지스트리(Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders)에서 특수문자가 포함된 Documents 경로를 기본값으로 수정</li>
+<li>그룹 정책이나 관리자 설정 변경 이력이 있다면 Star Wars Genesis 폴더, Starfield Documents 폴더, Starfield 폴더에 Everyone 그룹 전체 제어 권한 부여</li>
+<li>드라이브 손상으로 인해 SFSE Plugin Loader 오류 발생 시 모드리스트와 게임을 다른 드라이브로 이동</li>
+<li>AVX2 비활성화는 BIOS 설정 또는 i5-2500k 같은 매우 오래된 CPU에서 발생</li>
+</ul>
+<h3>추가 참고 링크</h3><ul>
+<li><a href="https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/" target="_blank" rel="noopener">visual c redistributable runtime package all in one</a></li>
+<li><a href="https://dotnet.microsoft.com/en-us/download/dotnet-framework" target="_blank" rel="noopener">.NET Framework</a></li>
+<li><a href="../bitdefender-troubleshooting/">서드파티 백신 문제 해결</a></li>
+<li><a href="https://www.youtube.com/embed/OC7wvzsH6Kw?autoplay=1&amp;mute=1&amp;version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=en-US&amp;autohide=2&amp;wmode=transparent" target="_blank" rel="noopener">원문 연결 영상 1</a></li>
+</ul>
+</section>
 <div class="footer"><a href="../support/">문제 해결 목차로 돌아가기 →</a></div></main><script src="../assets/site.js"></script></body></html>

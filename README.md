@@ -30,19 +30,23 @@ https://munument1.github.io/-KR-Starwars-Genesis/
 ## 남은 작업
 
 - [x] Self Help 현재 질문/결과 페이지의 현지화·검수
-- [ ] 설치·업데이트 가이드의 남은 예외 분기 번역 (일부 완료: 파일 누락 / Documents / 메인 메뉴 / 기존 세이브)
+- [x] 설치·업데이트 보조 절차의 핵심 안내 보완 (페이지 파일 / 루트 / 백신 / VC++ / MO2 / Documents / HD 업데이트)
 - [x] HD Overhaul 상세 스크린샷/업데이트 예외 추가
 - [x] 8.8.31 / 8.8.3 / 8.8.21 / 8.8.2 / 8.8.15 패치노트 번역
 - [x] Wiki / Gameplay / Team / Volunteer / Credits **(1차 번역)**
 - [x] Controls & Keybinds / Tips & Tricks / Quests / Lore / Difficulty
 - [x] Beginner Guides / Donate **(1차 번역)**
-- [x] 원문 업데이트 감지 자동화 — 주요 원본 41페이지 매일 확인, 변경 시 GitHub Issue
+- [x] 원문 업데이트 감지 자동화 — 원본 74페이지 매일 확인, 변경 시 GitHub Issue
 - [x] Uninstall / Game Keys / Old Installer Migration / Downloads Cleaning **(1차 번역)**
 - [x] Steam Auto Update / Modded Starfield Cleanup / Multiple Characters / Broken NPC / Modified Save
 - [x] 자동 내부 링크·페이지 메타 검증 워크플로
 - [ ] 실제 모바일 브라우저 시각 검수
 
 ## 원문 기준
+
+2026-10-07 사이트 전체를 대조해 72개 한국어 페이지 중 66페이지에 핵심 정보 204개 항목과 참고 링크 174개를 보완했습니다. 기존 57페이지에 설치 보조 안내와 Wiki 자료 15페이지를 추가했습니다. 페이지별 원문 주소·본문 해시·검수 범위는 `content-coverage.json`에 기록합니다.
+
+긴 원문은 사실 중심의 한국어 요약으로 보완하며, 모든 문장을 그대로 번역한 것은 아닙니다. 외부 자료 표와 영상은 원문에 연결하고 이미지·영상 내부의 영문까지 번역 완료했다고 주장하지 않습니다. 기존 번역과 한글 패치 적용 안내는 유지합니다.
 
 - 최초 작업: 2026-10-07
 - 최신 확인 패치노트: 8.8.31 (2026-09-28)
@@ -67,6 +71,6 @@ HTML에 `<meta name="robots" content="noindex,nofollow">`를 삽입했습니다.
 
 ## 자동 검증
 
-- `Check Genesis upstream`: 매일 원본 주요 41페이지의 본문을 비교합니다. 변경이 감지되면 GitHub Issue를 생성/갱신합니다.
+- `Check Genesis upstream`: 매일 원본 74페이지의 본문을 비교합니다. 변경이 감지되면 GitHub Issue를 생성/갱신합니다.
 - `Validate Korean Genesis site`: HTML 변경 시 내부 링크, title, viewport 등을 자동 검사합니다.
 - 원본 번역을 갱신한 뒤 변경 감지 기준값을 승인하려면 Actions → **Check Genesis upstream** → Run workflow에서 `accept_current=true`로 실행합니다.

@@ -37,4 +37,5 @@ pre code{border:0;background:transparent;padding:0;white-space:pre}
 @media(max-width:650px){.profile-grid{grid-template-columns:1fr}.profile-card img{width:72px;height:72px}.key-art-grid{grid-template-columns:1fr}.wiki-gallery{grid-template-columns:1fr 1fr}.wiki-gallery img{height:110px}}
 
 .source-image-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:18px 0 26px}.source-image-strip img{display:block;width:100%;max-height:300px;object-fit:contain;background:var(--panel);border:1px solid var(--line);border-radius:10px}.source-image-strip.compact img{max-height:220px}
+.source-supplement{margin-top:36px;padding-top:8px;border-top:1px solid var(--line);overflow-wrap:anywhere}.source-supplement li{margin-bottom:.65em}
 @media(max-width:650px){.source-image-strip{grid-template-columns:1fr 1fr}.source-image-strip img{max-height:220px}}

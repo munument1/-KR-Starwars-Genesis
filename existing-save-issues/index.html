@@ -6,4 +6,32 @@
 <div class="notice">numpad 1의 Existing Save Cleaner로 해결되지 않는 NPC는 <a href="../fixing-broken-npc/">깨진 NPC 수동 복구</a>를 사용하세요.</div><h3>8.8.2</h3><ul><li>Dantooine 등의 Rebel Technician 의상 누락.</li><li>Nar Shaddaa 일부 상인의 머리 누락.</li><li>Geriss Minor의 Imperial Military Base 마커가 이전 위치에 남을 수 있음.</li></ul>
 <h3>8.8.15</h3><p>과거 콘솔로 체력을 올린 사용자는 새 기본 난이도에서 지나치게 강해질 수 있습니다. 원문은 필요시 <code>player.modav health -x</code> 형식으로 추가했던 체력을 줄이는 방법을 안내합니다.</p>
 <h3>8.7</h3><ul><li>포스 능력 획득 순서 변경은 기존 세이브에 완전히 소급되지 않을 수 있습니다.</li><li>기존 제트팩은 새 이동 값이 반영되지 않아 버리고 새로 획득해야 할 수 있습니다.</li><li>일부 NPC 외형/의상은 기존 세이브에서 갱신되지 않을 수 있습니다.</li><li>기존 인벤토리의 일부 샷건/장비 수치가 새 버전과 다를 수 있습니다.</li></ul>
-<div class="warning">이 페이지는 최신·중요 항목 위주의 한국어 요약입니다. 오래된 세이브를 여러 버전 건너뛰어 업데이트한다면 반드시 공식 Existing Save Issues 전체 기록을 확인하세요.</div><div class="footer"><a href="../updating/">돌아가기 →</a></div></main><script src="../assets/site.js"></script></body></html>
+<div class="warning">이 페이지는 최신·중요 항목 위주의 한국어 요약입니다. 오래된 세이브를 여러 버전 건너뛰어 업데이트한다면 반드시 공식 Existing Save Issues 전체 기록을 확인하세요.</div>
+
+
+
+
+<section class="source-supplement" aria-label="원문 대조 보완">
+<h2>원문 대조 보완</h2>
+<p class="meta">2026-10-07 원문 대조 · 아래는 기존 안내에서 빠졌던 핵심 정보를 한국어로 정리한 내용입니다. 당시 버전의 설명과 향후 계획을 구분해서 읽으세요. <a href="https://genesismodlist.com/existing-save-issues/" target="_blank" rel="noopener">상세 원문 ↗</a></p>
+<h3>기존 세이브의 버전별 추가 문제</h3><ul>
+<li>8.8.1: Coruscant와 Gallofree의 일부 의상 갱신되지 않은 NPC는 Smuggler, Banking Clan Representative, Black Sun Operative 포함</li>
+<li>8.6: 업데이트 전에 메인 스토리를 완료했다면 숨겨진 Force Sensitive 퍽이 소급되지 않습니다. help &quot;force sensitive&quot;의 가장 큰 퍽 ID를 player.addperk &lt;id&gt;에 사용하거나, slm 14에서 포스 감응 배경을 선택합니다.</li>
+<li>8.6: Tython 포스 트레이너는 기존 세이브에서 보스로 등장하지 않음</li>
+<li>8.5: 타이손 트레이너로 인해 포스 에센스가 음수가 됐다면 player.setav quantumessence 5, player.modav quantumessence 5, player.forceav quantumessence 5를 하나씩 시도합니다. 양수로 바뀌면 중단하고 트레이너에게 능력을 배웁니다. 원문은 확정된 복구법이 아닌 시도로 안내합니다.</li>
+<li>8.5: 유물 전달을 안내하는 메인 프롤로그가 퀘스트 로그에 다시 나타나면 완료합니다.</li>
+<li>8.6: 기존 인벤토리의 방어구에는 새 전설 퍽이 반영되지 않으므로 같은 방어구를 새로 획득해야 합니다.</li>
+<li>8.6: UC 퀘스트라인을 이미 완료했다면 새 퀘스트라인을 경험할 수 없습니다. 진행 중인 비활성화 바닐라 퀘스트는 수행하지 않도록 안내합니다.</li>
+</ul>
+<h3>8.2~8.4 업데이트 주요 누락</h3><ul>
+<li>8.4: 프론티어를 대체하는 Echelon 스타터십은 수정 시 크래시 및 프론티어로 원복 위험이 있어 사용 권장 안 함</li>
+<li>8.4: Nas Choka와 Nom Anor를 이미 만났다면 인간 머리가 외계인 머리를 뚫고 나오는 영구적 비주얼 버그 발생</li>
+<li>8.3: 제국 신병으로 섀도우 콜렉티브 도입부를 진행 중이었다면 완료할 수 없으므로, 원문은 범죄 경로로 다시 시작하도록 안내합니다.</li>
+<li>8.2: 이전에 방문한 Coruscant, Dantooine, Nar Shaddaa 선박 상인은 새 함선을 판매하지 않음</li>
+</ul>
+<h3>추가 참고 링크</h3><ul>
+<li><a href="../force-powers/">포스 능력 및 명령어</a></li>
+<li><a href="../armors/">방어구 목록</a></li>
+</ul>
+</section>
+<div class="footer"><a href="../updating/">돌아가기 →</a></div></main><script src="../assets/site.js"></script></body></html>
