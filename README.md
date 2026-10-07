@@ -25,7 +25,8 @@
 
 - [ ] Self Help 모든 질문/결과 페이지의 현지화·검수
 - [ ] 설치·업데이트 가이드의 이미지 및 모든 예외 분기 번역
-- [ ] Incompatible Apps / Controller / Ultrawide / Linux / Modifying Install
+- [x] Controller / Ultrawide / Linux **(1차 요약본)**
+- [ ] Incompatible Apps / Modifying Install
 - [ ] Optimization / Patch Notes / F.A.Q.
 - [ ] Wiki / Gameplay / Team / Credits
 - [ ] 사이트 공개 배포 성공 검증
