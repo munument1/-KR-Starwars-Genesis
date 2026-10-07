@@ -1,18 +1,34 @@
-<!doctype html>
-<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Wabbajack 설치 오류 | Genesis 한국어 가이드</title><link rel="stylesheet" href="../assets/style.css"></head>
-<body><div data-nav></div><main class="wrap"><div class="kicker">WABBAJACK ISSUES</div><h1>Wabbajack 설치 오류</h1><p class="meta">원문 확인: 2026-10-07 · <a href="https://genesismodlist.com/wabbajack-issues/" rel="noopener" target="_blank">공식 원문 ↗</a></p>
-<p class="lead">설치가 실패하면 Wabbajack 로그의 마지막 오류 메시지를 먼저 확인하세요. 아래는 원문에 있는 주요 오류별 확인 사항입니다.</p>
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Wabbajack 설치 오류 | Genesis 한국어 가이드</title><link rel="stylesheet" href="../assets/style.css"></head><body><div data-nav></div><main class="wrap">
+<div class="kicker">WABBAJACK ISSUES · 상세 번역</div><h1>Wabbajack 설치 오류</h1>
+<p class="meta">원문 확인: 2026-10-07 · <a href="https://genesismodlist.com/wabbajack-issues/" target="_blank" rel="noopener">공식 원문 ↗</a></p>
+<p class="lead">설치 실패 화면보다 <strong>로그 바로 위의 오류 문구</strong>가 중요합니다. 같은 경로로 재실행하면 이미 받은 파일을 재사용하며 이어받을 수 있습니다.</p>
+
 <h2>다운로드 관련</h2>
-<h3>Reached API Limit</h3><p>Nexus 요청 한도에 도달했다면 네트워크 안정성을 점검하세요. 가능하면 유선 연결이나 Wabbajack의 CDN 변경을 시도하고, 제한이 풀린 후 재개합니다.</p>
+<h3>Reached API Limit</h3><p>원문 기준 Nexus API 한도는 24시간 10,000회이며 한도에 도달한 뒤에는 시간당 500회가 추가됩니다. Genesis 자체가 보통 이 한도를 소모할 정도로 무거운 목록은 아니므로, 반복 도달한다면 불안정한 인터넷 연결을 먼저 의심합니다. 가능하면 유선 연결 또는 Wabbajack CDN 변경을 시험합니다.</p>
+
 <h3>Unable to Source File</h3><p>우선 <strong>Retry</strong>를 누릅니다.</p>
-<h3>Unable to Download / OAuth Token Errors</h3><p>Wabbajack 안의 Nexus 로그인 여부, VPN, 지역별 접속 차단, 불안정한 연결을 차례로 확인합니다.</p>
-<h3>Stuck Download</h3><p>설치기를 닫았다가 <strong>이전과 같은 경로</strong>를 지정해 다시 시작합니다. 반복된다면 문제 파일을 확인한 뒤 캐시 정리 절차를 원문에서 확인하세요.</p>
-<h2>파일·환경 관련</h2>
-<h3>Can't Find Game Starfield</h3><p>Steam판인지 확인하고 중복된 Steam 설치로 경로 인식이 꼬이지 않았는지 점검합니다.</p>
-<h3>Unable to hash ...</h3><p>손상된 내려받기 파일일 수 있습니다. 해당 문제 파일을 교체하거나 원문의 다운로드 폴더 재구성 절차를 따릅니다.</p>
-<h3>TEMP_BSA_FILES 경로 오류</h3><p>Wabbajack을 닫은 뒤 <code>Star Wars Genesis\Game\TEMP_BSA_FILES</code>의 임시 파일을 점검하고 설치를 다시 시작합니다.</p>
-<h3>Access Denied</h3><p>보안 프로그램의 차단 기록을 확인합니다. 예외가 필요하다면 원문에 지정된 게임·모드 폴더만 대상으로 설정하세요.</p>
-<h3>Textures BA2 다운로드 실패</h3><p>문제가 된 Starfield 게임 파일을 Steam의 파일 무결성 검사로 복구한 뒤 다시 시도합니다.</p>
-<h3>Disk I/O</h3><p>SSD 저장 공간을 확보하고 AMD StoreMI 같은 저장장치 관리 프로그램과 충돌하는지 확인합니다.</p>
-<h3>Nexus 로그인 창이 흰색</h3><p>Microsoft Edge와 WebView2 Runtime 설치 상태를 점검합니다. <a href="https://developer.microsoft.com/microsoft-edge/webview2/" target="_blank" rel="noopener">WebView2 공식 안내 ↗</a></p>
-<div class="warning"><strong>주의:</strong> 관리자 권한이나 백신을 무조건 끄기보다 먼저 오류 기록과 제한적인 예외 설정을 확인하는 편이 안전합니다. 오류가 남으면 <a href="https://genesismodlist.com/wabbajack-issues/" target="_blank" rel="noopener">공식 해결 페이지</a>의 세부 조건을 따르세요.</div><div class="footer"><p>이 페이지는 비공식 한국어 안내입니다. 실제 설치 전에 원문의 최신 지침을 확인하세요.</p><a href="../support/">문제 해결 목차로 돌아가기 →</a></div></main><script src="../assets/site.js"></script></body></html>
+
+<h3>Unable to Download / OAuth Token Errors</h3><ul><li>Wabbajack 안에서 Nexus 로그인 누락.</li><li>로그인 실패 반복으로 일시적인 IP 제한.</li><li>VPN 때문에 Nexus 다운로드 차단.</li><li>지역/네트워크에서 Nexus 또는 GitHub 접근 제한.</li><li>대용량 파일을 끝까지 받지 못하는 불안정한 회선.</li></ul>
+
+<h3>Stuck Download</h3><ol><li>설치기를 닫습니다.</li><li><strong>이전과 정확히 같은 설치 위치</strong>로 다시 시작합니다.</li><li>같은 파일에서 계속 멈추면 Downloads 폴더에서 해당 모드 압축파일만 삭제합니다.</li><li>Wabbajack을 닫고 <code>%localappdata%</code>의 <code>Wabbajack</code> 캐시 폴더를 삭제합니다.</li><li>Wabbajack을 다시 열어 설치를 재개합니다.</li></ol>
+
+<h2>게임·파일 경로</h2>
+<h3>Can't Find Game Starfield</h3><ul><li>Steam판 Starfield인지 확인.</li><li>Steam이 두 군데 설치되어 Wabbajack이 잘못된 라이브러리를 보고 있지 않은지 확인.</li></ul>
+
+<h3>Unable to hash ...</h3><p>다운로드 파일 손상 오류입니다. 원문은 Genesis Downloads 폴더를 새로 만들어 다시 설치하는 방법을 안내합니다. 전체 폴더 삭제 전 필요한 파일을 다시 받을 수 있는지 확인하세요.</p>
+
+<h3>Could not find part of the path “TEMP_BSA_FILES”</h3><ol><li>Wabbajack 종료.</li><li><code>Star Wars Genesis\Game\TEMP_BSA_FILES</code>가 있으면 <strong>폴더 자체가 아니라 내부 내용만</strong> 비웁니다.</li><li>Wabbajack을 다시 실행해 같은 설치를 재개합니다.</li></ol>
+
+<h3>Data_Starfield-Textures0X.BA2 다운로드 실패</h3><p>Starfield 게임 파일 손상으로 보는 오류입니다. 로그에서 지목한 파일을 게임 폴더에서 제거한 뒤 Steam 복구를 진행하고 Wabbajack을 재개합니다. 다만 Bethesda가 새 게임 버전을 막 배포한 시점에는 <a href="../turning-off-automatic-updates/">지원 버전</a>을 먼저 확인하세요.</p>
+
+<h2>Windows 환경</h2>
+<h3>Access Denied</h3><p>서드파티 백신 또는 Windows 보안이 파일 접근을 막는 경우가 많습니다. 차단 기록을 먼저 확인하고, 필요한 경우 <code>Starfield</code>, <code>Star Wars Genesis\Game</code>, <code>Documents\My Games\Starfield</code>만 제한적으로 예외 처리합니다.</p>
+
+<h3>“You can’t run Wabbajack as Admin”</h3><p>기본 Windows보다 강화된 UAC/권한 정책 때문에 발생할 수 있습니다. UAC를 무조건 낮추기보다 Wabbajack을 관리자 권한으로 강제 실행하도록 설정한 항목이 있는지 먼저 확인하세요.</p>
+
+<h3>Disk I/O Error</h3><p>SSD 여유 공간이 부족하거나 AMD StoreMI 같은 저장장치 가속/관리 프로그램과 충돌하는지 확인합니다.</p>
+
+<h3>Nexus 로그인 창이 흰색</h3><p>Microsoft Edge/WebView2 구성요소 누락과 관련될 수 있습니다. Edge와 <a href="https://developer.microsoft.com/microsoft-edge/webview2/" target="_blank" rel="noopener">WebView2 Runtime ↗</a>을 복구합니다.</p>
+
+<div class="warning"><strong>주의:</strong> 백신 제거, UAC 완전 해제, Windows 핵심 구성요소 삭제/재설치 같은 강한 조치는 마지막 단계로 두세요. 먼저 오류 로그와 차단 기록을 확인하는 편이 안전합니다.</div>
+<div class="footer"><a href="../support/">문제 해결 목차로 돌아가기 →</a></div></main><script src="../assets/site.js"></script></body></html>
