@@ -16,7 +16,7 @@ https://munument1.github.io/-KR-Starwars-Genesis/
 - [x] HD Overhaul **(상세 번역 + 원본 스크린샷 연결)**
 - [x] 번역 정책
 - [x] 문제 해결 목차
-- [x] Self Help **(초기 진단 분기 + SFSE/크래시/Documents 상세 페이지)**
+- [x] Self Help **(현재 원본 Yes/No 분기 전체 + TLDR/결과 페이지)**
 - [x] Wabbajack Issues **(주요 오류 설명)**
 - [x] Mod Organizer Issues **(주요 오류 설명)**
 - [x] Ingame Issues **(주요 오류 설명)**
@@ -29,15 +29,14 @@ https://munument1.github.io/-KR-Starwars-Genesis/
 
 ## 남은 작업
 
-- [ ] Self Help 모든 질문/결과 페이지의 현지화·검수
+- [x] Self Help 현재 질문/결과 페이지의 현지화·검수
 - [ ] 설치·업데이트 가이드의 남은 예외 분기 번역 (일부 완료: 파일 누락 / Documents / 메인 메뉴 / 기존 세이브)
 - [x] HD Overhaul 상세 스크린샷/업데이트 예외 추가
 - [x] 8.8.31 / 8.8.3 / 8.8.21 / 8.8.2 / 8.8.15 패치노트 번역
-- [ ] 더 오래된 패치노트 순차 번역
 - [x] Wiki / Gameplay / Team / Volunteer / Credits **(1차 번역)**
 - [x] Controls & Keybinds / Tips & Tricks / Quests / Lore / Difficulty
 - [x] Beginner Guides / Donate **(1차 번역)**
-- [ ] 원문 업데이트 감지 방식 구축
+- [ ] 원문 업데이트 감지 자동화 초기화/검증
 - [x] Uninstall / Game Keys / Old Installer Migration / Downloads Cleaning **(1차 번역)**
 - [x] Steam Auto Update / Modded Starfield Cleanup / Multiple Characters / Broken NPC / Modified Save
 - [ ] 전체 페이지 링크/모바일 표시 최종 검수
