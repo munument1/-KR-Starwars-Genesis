@@ -1,19 +1,38 @@
-<!doctype html>
-<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>게임 내 오류 | Genesis 한국어 가이드</title><link rel="stylesheet" href="../assets/style.css"></head>
-<body><div data-nav></div><main class="wrap"><div class="kicker">INGAME ISSUES</div><h1>게임 내 오류</h1><p class="meta">원문 확인: 2026-10-07 · <a href="https://genesismodlist.com/ingame-issues/" rel="noopener" target="_blank">공식 원문 ↗</a></p>
-<p class="lead">게임이 실행된 뒤 발생하는 문제를 다룹니다. 크래시·무한 로딩은 <a href="https://genesismodlist.com/performance/" target="_blank" rel="noopener">공식 성능 문제 안내</a>를 우선 확인하세요.</p>
-<h2>화면·파일 문제</h2>
-<h3>해상도가 1280×720으로 고정됨</h3><p>Borderless Fullscreen을 껐다 켜고 Windows 디스플레이 배율 100%를 시험합니다.</p>
-<h3>저장 실패</h3><p>Steam Cloud 저장을 끄고 <code>Documents\My Games\Starfield\Saves</code> 존재 여부, Windows 보안의 폴더 차단, OneDrive 문서 경로를 확인합니다.</p>
-<h3>설정이 재시작 후 초기화됨</h3><p>Windows 보안이 게임의 Documents 기록을 막았는지 보호 기록을 확인합니다.</p>
-<h3>로딩 시간이 지나치게 김</h3><p>외장 드라이브·HDD·느린 SSD에 설치했는지 확인하고 디스크 상태와 속도를 점검합니다.</p>
-<h3>광선검이 흰색으로 보임</h3><p>Documents 설정과 파일 접근 권한 문제일 수 있어 원문의 Manual Documents Install을 확인합니다.</p>
-<h2>게임플레이 문제</h2>
-<h3>우주선 진입·도킹 실패</h3><p>저장 후 재시작하고, 반복된다면 Visual C++ 관련 구성요소를 점검합니다.</p>
-<h3>지오노시스의 바닥이 사라짐</h3><p>게임·모드 파일 손상 여부와 추가 모드를 확인한 뒤 Steam 복구 또는 Genesis Repair를 고려합니다.</p>
-<h3>제트팩 화염·위치가 이상함</h3><p>콘솔에서 <code>showlooksmenu player 2</code>로 외형 편집 화면을 잠깐 열었다 닫습니다.</p>
-<h3>퀘스트 NPC가 공격적임</h3><p>48시간 대기 후 재확인하세요. 잠입 퀘스트가 막힌 경우 원문에 <code>tdetect</code> 콘솔 사용 안내가 있습니다.</p>
-<h3>행성·대사가 바닐라와 같음</h3><p>Steam에서 Starfield 언어가 <strong>English</strong>로 지정돼 있는지 확인합니다.</p>
-<h3>문이 열리지 않음 / 대체 시작 우주선 누락</h3><p>게임 재시작·세이브 다시 불러오기, 또는 함선 기술자에게 말을 걸어 빌드 화면 진입을 시험합니다.</p>
-<h3>빠른 이동 불가</h3><p>원문에는 <code>DumpInputEnableLayers</code>로 레이어를 확인한 뒤 <code>ResetInputEnableLayer NUMBER</code>를 사용하는 방법이 있습니다. 번호는 출력 결과를 보고 선택해야 합니다.</p>
-<div class="warning">콘솔 명령은 세이브를 백업한 다음 사용하세요. 실행 결과가 예상과 다르면 중단하고 <a href="https://genesismodlist.com/ingame-issues/" target="_blank" rel="noopener">원문 안내</a>를 확인하세요.</div><div class="footer"><p>비공식 한국어 안내입니다. 버전이 바뀌면 원문을 먼저 확인하세요.</p><a href="../support/">문제 해결 목차로 돌아가기 →</a></div></main><script src="../assets/site.js"></script></body></html>
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>게임 내 오류 | Genesis 한국어 가이드</title><link rel="stylesheet" href="../assets/style.css"></head><body><div data-nav></div><main class="wrap">
+<div class="kicker">INGAME ISSUES · 상세 번역</div><h1>게임 내 오류</h1>
+<p class="meta">원문 확인: 2026-10-07 · <a href="https://genesismodlist.com/ingame-issues/" target="_blank" rel="noopener">공식 원문 ↗</a></p>
+<p class="lead">Genesis가 정상 실행된 뒤 발생하는 화면·저장·함선·퀘스트 문제입니다. <strong>크래시나 무한 로딩</strong>은 <a href="../performance/">성능/안정성 안내</a> 또는 <a href="../self-help/">Self Help</a>를 먼저 확인하세요.</p>
+
+<h2>화면·저장·파일</h2>
+<h3>해상도가 1280×720으로 고정됨</h3><ul><li>Borderless Fullscreen을 껐다 다시 켭니다.</li><li>Windows 디스플레이 배율을 100%로 시험합니다.</li></ul>
+
+<h3>저장 실패</h3><ol><li>Steam Cloud Save를 끕니다.</li><li><code>Documents\My Games\Starfield\Saves</code> 경로가 실제로 존재하는지 확인합니다.</li><li>Windows 보안이 Starfield의 Documents 접근을 막는지 확인합니다.</li><li>OneDrive를 사용한다면 실제 Documents 위치가 OneDrive 아래인지 확인합니다.</li><li>마지막 수단으로 OneDrive 동기화를 잠시 중지해 비교합니다.</li></ol>
+
+<h3>설정이 재시작 후 초기화됨</h3><p>Windows Defender 또는 다른 보안 프로그램이 Starfield의 Documents 쓰기를 막는 경우가 많습니다. 보호 기록에서 <code>Starfield.exe</code> 차단 여부를 확인합니다.</p>
+
+<h3>로딩이 몇 분씩 걸림</h3><p>공식 가이드는 외장 SSD, SATA SSD, HDD를 Genesis 최소 요구보다 느린 환경으로 봅니다. 디스크 상태와 실제 읽기/쓰기 속도를 확인하고, NVMe SSD는 대략 4,000MB/s 이상의 읽기/쓰기를 기준 예시로 듭니다.</p>
+
+<h3>광선검이 흰색</h3><p>Documents 설정 문제일 가능성이 큽니다. <a href="../manual-documents-step/">Documents 수동 설치</a>와 Windows 보안 차단을 확인합니다.</p>
+
+<h2>함선·지역</h2>
+<h3>우주선에 들어갈 수 없음 / Dock 표시가 없음</h3><p>먼저 저장 후 게임을 재시작합니다. 반복 재현된다면 함선 관련 SFSE 플러그인이 VC++ 런타임 문제로 로드되지 않는지 확인합니다.</p>
+
+<h3>Geonosis 바닥 누락</h3><p>세이브 자체보다 게임/모드 파일 손상 가능성을 먼저 봅니다. 추가 모드, 비표준 Wabbajack 포크 사용 여부를 확인하고, 해당되지 않으면 Starfield clean reinstall 또는 Genesis Repair를 고려합니다.</p>
+
+<h3>모든 것이 투명/회색/보라색</h3><p>원본은 Creation Kit 작업 중 <code>Materials</code> 폴더 이름을 잘못 남긴 추가 모드가 이런 증상을 만들 수 있다고 설명합니다. 추가 모드를 사용했다면 해당 모드부터 비활성화해 비교하세요.</p>
+
+<h2>캐릭터·퀘스트</h2>
+<h3>제트팩 화염이 이상하거나 제트팩이 떠 있음</h3><p>콘솔에서 <code>showlooksmenu player 2</code>를 실행해 캐릭터 편집 화면을 잠깐 열었다 닫습니다.</p>
+
+<h3>퀘스트 NPC가 계속 공격함</h3><ol><li>침대/의자 등에서 48시간 대기합니다.</li><li>잠입 미션이 막힌 경우에 한해 <code>tdetect</code>로 감지를 잠시 끄고 다음 목표까지 이동한 뒤 다시 입력해 켭니다.</li></ol>
+
+<h3>행성/대사가 바닐라 그대로</h3><p>Steam에서 Starfield 언어가 <strong>English</strong>인지 확인합니다. Genesis는 아직 WIP라 일부 바닐라 음성/내용이 남아 있을 수 있습니다.</p>
+
+<h3>문을 열 수 없음</h3><p>바닐라 Bethesda 버그 사례가 있으므로 게임 재시작 또는 세이브 재로드를 먼저 합니다.</p>
+
+<h3>Alternate Start에서 함선이 없음</h3><p>함선 기술자에게 말을 걸고 Ship Builder를 잠깐 열어보거나 다른 위치로 빠른 이동해 봅니다.</p>
+
+<h3>빠른 이동 불가</h3><ol><li>콘솔에 <code>DumpInputEnableLayers</code> 입력.</li><li>출력된 Layer 중 Fast Travel이 표시된 번호를 찾습니다.</li><li><code>ResetInputEnableLayer NUMBER</code>에서 NUMBER를 해당 번호로 바꿔 실행합니다.</li></ol>
+
+<div class="warning">콘솔 명령을 사용하기 전에 별도 수동 저장을 남기세요. 추가 모드를 사용 중이라면 <a href="../modified-save-guide/">Modified Save</a> 문제인지도 확인해야 합니다.</div>
+<div class="footer"><a href="../support/">문제 해결 목차로 돌아가기 →</a></div></main><script src="../assets/site.js"></script></body></html>
