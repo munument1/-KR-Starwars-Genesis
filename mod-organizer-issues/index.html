@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Mod Organizer 2 문제 해결 | Genesis 한국어 가이드</title><link rel="stylesheet" href="../assets/style.css"></head>
+<body><div data-nav></div><main class="wrap"><div class="kicker">MOD ORGANIZER ISSUES</div><h1>Mod Organizer 2 문제 해결</h1><p class="meta">원문 확인: 2026-10-07 · <a href="https://genesismodlist.com/mod-organizer-issues/" rel="noopener" target="_blank">공식 원문 ↗</a></p>
+<p class="lead">MO2가 열리지 않거나 Genesis 실행 버튼을 눌러도 게임이 시작되지 않을 때 확인할 항목입니다.</p>
+<div class="notice"><strong>먼저:</strong> 게임 파일이나 Windows 설정을 바꾸기 전에, 나타난 정확한 오류 문구와 최근 변경 사항을 기록하세요.</div>
+<h2>실행 환경 점검</h2>
+<ol class="steps">
+<li><strong>Visual C++ 재배포 패키지</strong><br><a href="https://aka.ms/vs/17/release/vc_redist.x64.exe" target="_blank" rel="noopener">Microsoft 공식 x64 설치 파일 ↗</a>을 복구하거나 설치합니다.</li>
+<li><strong>.NET 및 기본 구성요소</strong><br><a href="https://dotnet.microsoft.com/download/dotnet-framework" target="_blank" rel="noopener">공식 .NET Framework 다운로드 ↗</a>에서 설치 상태를 확인합니다.</li>
+<li><strong>보안 차단 기록</strong><br>Windows 보안의 보호 기록과 제어된 폴더 액세스에서 <code>Starfield.exe</code>, <code>ModOrganizer.exe</code>의 차단 여부를 확인합니다.</li>
+<li><strong>파일 차단 해제</strong><br>외부에서 받은 파일이 Windows에 의해 차단됐을 때만 설치 디렉터리에서 PowerShell 명령을 고려합니다. 원문 명령은 <code>dir -Recurse | Unblock-File</code>입니다.</li>
+<li><strong>호환되지 않는 프로그램</strong><br><a href="https://genesismodlist.com/incompatible-apps/" target="_blank" rel="noopener">공식 충돌 프로그램 목록 ↗</a>에서 현재 사용하는 앱을 대조합니다.</li>
+</ol>
+<h2>특정 오류</h2>
+<h3>Side by Side Configuration</h3><p>Visual C++ 구성요소를 복구하고 Genesis 설치기의 Repair 기능을 실행합니다.</p>
+<h3>Baka Hold to Sprint Disabled</h3><p>설치된 Visual C++ x64 구성요소를 점검합니다.</p>
+<h3>RealTimeFormPatcher / Address Library</h3><p>공식 가이드는 Visual C++ 재설치를 우선 안내합니다.</p>
+<h3>플러그인 순서가 바뀜</h3><p>MO2의 Plugins 탭에서 제공되는 백업 복원 기능을 확인하세요.</p>
+<div class="warning"><strong>보안 주의:</strong> 원문에는 Windows 권한과 보안 설정을 폭넓게 바꾸는 권고도 포함됩니다. <code>Everyone</code>에게 전체 권한을 주거나 백신을 전면 해제하기 전, 원인별 최소 예외부터 적용하세요. 레지스트리나 Documents 경로 변경은 백업 없이 진행하지 마세요.</div><div class="footer"><p>비공식 한국어 안내입니다. 버전이 바뀌면 원문을 먼저 확인하세요.</p><a href="../support/">문제 해결 목차로 돌아가기 →</a></div></main><script src="../assets/site.js"></script></body></html>
