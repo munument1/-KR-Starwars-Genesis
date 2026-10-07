@@ -1,0 +1,29 @@
+name: Validate Korean Genesis site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**/*.html"
+      - "index.html"
+      - "assets/**"
+      - "scripts/validate_site.py"
+      - ".github/workflows/validate-site.yml"
+  pull_request:
+    paths:
+      - "**/*.html"
+      - "index.html"
+      - "assets/**"
+      - "scripts/validate_site.py"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Validate internal links and page metadata
+        run: python3 scripts/validate_site.py
