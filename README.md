@@ -13,7 +13,7 @@ https://munument1.github.io/-KR-Starwars-Genesis/
 - [x] 홈 및 공통 메뉴
 - [x] 신규 설치 **(1차 상세 번역 + 원본 스크린샷 연결)**
 - [x] 설치 업데이트 **(1차 상세 번역 + 원본 스크린샷 연결)**
-- [x] HD Overhaul **(1차 요약본)**
+- [x] HD Overhaul **(상세 번역 + 원본 스크린샷 연결)**
 - [x] 번역 정책
 - [x] 문제 해결 목차
 - [x] Self Help **(초기 진단 분기 + SFSE/크래시/Documents 상세 페이지)**
@@ -30,8 +30,8 @@ https://munument1.github.io/-KR-Starwars-Genesis/
 ## 남은 작업
 
 - [ ] Self Help 모든 질문/결과 페이지의 현지화·검수
-- [ ] 설치·업데이트 가이드의 남은 예외 분기 번역
-- [ ] HD Overhaul 상세 스크린샷/업데이트 예외 추가
+- [ ] 설치·업데이트 가이드의 남은 예외 분기 번역 (일부 완료: 파일 누락 / Documents / 메인 메뉴 / 기존 세이브)
+- [x] HD Overhaul 상세 스크린샷/업데이트 예외 추가
 - [ ] 과거 패치노트 주요 버전 순차 번역
 - [ ] Wiki / Gameplay / Team / Credits
 - [ ] 원문 업데이트 감지 방식 구축
