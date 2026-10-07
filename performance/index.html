@@ -1,9 +1,14 @@
 <!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>성능 문제 해결 | Genesis 한국어 가이드</title><link rel="stylesheet" href="../assets/style.css"></head><body><div data-nav></div><main class="wrap"><div class="kicker">GENERAL PERFORMANCE</div><h1>성능 문제 해결</h1><p class="meta">원문 확인: 2026-10-07 · <a href="https://genesismodlist.com/performance/" target="_blank" rel="noopener">공식 원문 ↗</a></p>
 <p class="lead">Genesis에서 프레임 저하·메뉴 지연·오디오 끊김·긴 로딩이 발생할 때 확인할 공통 항목입니다.</p>
 <h2>먼저 충돌 프로그램 확인</h2><p>오버레이·오디오·튜닝·보안 프로그램이 Genesis와 충돌하는 사례가 있으므로 <a href="../incompatible-apps/">충돌 프로그램 안내</a>부터 확인합니다.</p>
-<h2>메뉴 지연</h2><p>게임 플레이 중에는 정상 프레임이 나오다가 일시정지 메뉴를 연 뒤 FPS가 크게 떨어진 채 유지되는 현상은 GPU VRAM 부족과 관련될 수 있습니다. 근본 해결은 하드웨어 한계에 달려 있지만 일부 설정으로 완화할 수 있습니다.</p>
-<h2>오디오/FPS 끊김</h2><p>공식 가이드는 Starfield와 Genesis 모두 <strong>내장 NVMe SSD</strong> 사용을 강조합니다. 외장 SSD/HDD 또는 느린 저장장치에서는 음악 끊김, 프레임 스터터, 매우 긴 로딩이 발생할 수 있습니다.</p>
-<h2>새 게임·도시 진입에서 크래시</h2><p>백신, Windows 권한, 오래된 모드 잔재를 먼저 배제합니다. 원문은 문제가 계속되면 RAM·SSD·드라이버·온도 같은 하드웨어 안정성도 점검하도록 안내합니다.</p>
-<ul><li><strong>RAM:</strong> 다른 앱도 자주 종료된다면 메모리 안정성 점검.</li><li><strong>SSD:</strong> SMART 상태와 실제 읽기/쓰기 성능 확인.</li><li><strong>GPU 드라이버:</strong> 다른 게임에서도 이상 증상이 있을 때 손상 가능성 점검.</li><li><strong>온도:</strong> CPU/GPU 과열 여부 확인.</li></ul>
-<div class="danger"><strong>블루스크린·PC 강제 종료:</strong> 게임/모드리스트 자체가 정상 PC에서 이런 증상을 일으키는 것으로 단정하면 안 됩니다. 원문은 이런 경우 하드웨어·전원·드라이버 안정성 문제를 우선 점검하라고 안내합니다.</div>
-<h2>추가 최적화</h2><div class="grid"><a class="card" href="../fps-boosts/"><strong>FPS 향상 팁</strong><small>원문에서 제안하는 선택적 설정 모음</small></a><a class="card" href="https://genesismodlist.com/menu-lag-fixes/" target="_blank" rel="noopener"><strong>Menu Lag Fixes ↗</strong><small>세부 번역 준비 중</small></a><a class="card" href="https://genesismodlist.com/default-settings/" target="_blank" rel="noopener"><strong>Default Settings ↗</strong><small>권장 게임 설정 원문</small></a></div><div class="footer"><a href="../">홈으로 돌아가기 →</a></div></main><script src="../assets/site.js"></script></body></html>
+<h2>메뉴 지연</h2><p>게임 플레이 중에는 정상 FPS가 나오다가 Esc 일시정지 메뉴 이후 프레임이 크게 떨어진 채 유지되는 현상입니다. 최신 공식 가이드는 2026년 8월 이후 별도의 Menu Lag Fix가 추가되었다고 안내합니다.</p>
+<h2>오디오/FPS 끊김</h2><p>공식 가이드는 Starfield와 Star Wars Genesis를 모두 <strong>내장 NVMe SSD</strong>에 설치하라고 강조합니다. SATA SSD·외장 SSD·HDD 환경에서는 오디오 끊김, 프레임 스터터, 매우 긴 로딩이 발생할 수 있습니다.</p>
+<h2>새 게임·도시 진입에서 크래시</h2><p>백신, Windows 권한, 오래된 모드 잔재를 먼저 배제합니다. 문제가 계속된다면 RAM·SSD·GPU 드라이버·온도 같은 PC 자체 안정성도 확인합니다.</p>
+<ul><li><strong>RAM:</strong> 다른 앱도 자주 종료된다면 메모리 안정성 점검.</li><li><strong>SSD:</strong> SMART 상태와 읽기/쓰기 성능 확인.</li><li><strong>GPU 드라이버:</strong> 다른 게임에서도 이상이 있다면 재설치 고려.</li><li><strong>온도:</strong> CPU/GPU 과열 여부 확인.</li></ul>
+<div class="danger"><strong>블루스크린·PC 강제 종료:</strong> 정상적인 게임 크래시와는 다른 증상입니다. 원문은 이 경우 하드웨어·전원·드라이버 안정성 문제를 우선 점검하라고 안내합니다.</div>
+<h2>최적화 가이드</h2><div class="grid">
+<a class="card" href="../menu-lag/"><strong>메뉴 렉 해결</strong><small>저VRAM 환경의 Esc 메뉴 프레임 저하</small></a>
+<a class="card" href="../fps-boosts/"><strong>FPS 향상 팁</strong><small>선택적 성능 설정</small></a>
+<a class="card" href="../potato-pc-settings/"><strong>저사양 PC</strong><small>최소 사양 근처에서 화질을 희생해 성능 확보</small></a>
+<a class="card" href="../settings/"><strong>권장 기본 설정</strong><small>Dynamic Resolution, VSync, 밝기 등</small></a>
+</div><div class="footer"><a href="../">홈으로 돌아가기 →</a></div></main><script src="../assets/site.js"></script></body></html>
