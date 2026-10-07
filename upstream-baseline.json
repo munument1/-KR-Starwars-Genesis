@@ -1,0 +1,211 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-07T02:53:09.503047+00:00",
+  "sources": {
+    "https://genesismodlist.com/install/": {
+      "name": "New Install",
+      "sha256": "c30577710af2ec5203bdb8d62356f0ab265d9f8998fb9530507023c7bfd403e2",
+      "text_length": 10759
+    },
+    "https://genesismodlist.com/updating/": {
+      "name": "Updating Install",
+      "sha256": "ff4afc7c9b617f530c94fa337bef52f2e1703b38e3e7dbc42d08070c9d9e4ef1",
+      "text_length": 6229
+    },
+    "https://genesismodlist.com/hd-overhaul-install/": {
+      "name": "HD Overhaul",
+      "sha256": "6e70ead6ab0998b7f1c6390a333061619511b89480e5f5e346672153f7b44b84",
+      "text_length": 2401
+    },
+    "https://genesismodlist.com/translations/": {
+      "name": "Translations",
+      "sha256": "48fc8c6315279b175d87f0edb29d12a2408fa4c1641de497f96e2ca461a52857",
+      "text_length": 565
+    },
+    "https://genesismodlist.com/uninstallation/": {
+      "name": "Uninstall",
+      "sha256": "b22df26fd0e67c1ce1cbc4658f97412b85c6781f624a547a9bdced48917bbfe4",
+      "text_length": 852
+    },
+    "https://genesismodlist.com/self-help/": {
+      "name": "Self Help",
+      "sha256": "938feec4a13f652a8916aee5587c4cf699b68308f46e79344d20670d09a3df84",
+      "text_length": 484
+    },
+    "https://genesismodlist.com/self-help-01/": {
+      "name": "Self Help 01",
+      "sha256": "9347787ed049ebe6024be59e9e02b6155747fe385959ecd1b5719d4c019de327",
+      "text_length": 110
+    },
+    "https://genesismodlist.com/self-help-02/": {
+      "name": "Self Help 02",
+      "sha256": "f01ed2c82d4bc0d317300d75ec88399af41bb88e727119cd243ae34cc81458af",
+      "text_length": 119
+    },
+    "https://genesismodlist.com/self-help-03/": {
+      "name": "Self Help 03",
+      "sha256": "35766bbf1678c3e6837b02e6b7e9e2ac30a25130163ba8af9896df42ceffc2cc",
+      "text_length": 82
+    },
+    "https://genesismodlist.com/self-help-shattered-space/": {
+      "name": "Self Help Shattered Space",
+      "sha256": "12c53366f62e8c10d5a83ab4eac48638436b8ff746a3d11a6587ae8d8d24b8c0",
+      "text_length": 521
+    },
+    "https://genesismodlist.com/self-help-end/": {
+      "name": "Self Help End",
+      "sha256": "dfdd69c91d48a4558300942e151bf9647c26db50e2a9f04cba7a61e778309f4d",
+      "text_length": 237
+    },
+    "https://genesismodlist.com/sfse-loader-issues/": {
+      "name": "SFSE Loader Issues",
+      "sha256": "ac237c729ccca895c54f76a1fadff0c268d4157dd9459182f55c60df3d26ad16",
+      "text_length": 1315
+    },
+    "https://genesismodlist.com/launch-crashing/": {
+      "name": "Launch Crashing",
+      "sha256": "09f2f5b452ef2249bfc6c757b1dc1f11205f29667f07ab2e1a91d02cb207a3d3",
+      "text_length": 1239
+    },
+    "https://genesismodlist.com/starfield-launch-issues/": {
+      "name": "Starfield Launch Issues",
+      "sha256": "669dfaacc8f549485adb6ef4a00d14bdf599ab88c798fe4762e2d3c6391d6d78",
+      "text_length": 1569
+    },
+    "https://genesismodlist.com/manual-documents-step/": {
+      "name": "Manual Documents",
+      "sha256": "76d964b96d6e613d4111173dc957787217c4df06efd667c1cb69dddd59cee1da",
+      "text_length": 1233
+    },
+    "https://genesismodlist.com/wabbajack-issues/": {
+      "name": "Wabbajack Issues",
+      "sha256": "a874860a1fa6e00755c7cba3e3a125baffdf53c618f6bd6472816affb6f55583",
+      "text_length": 5924
+    },
+    "https://genesismodlist.com/mod-organizer-issues/": {
+      "name": "Mod Organizer Issues",
+      "sha256": "d1156d7f9c57b7a9c076551e522a2939de3259e9fd8754cac6c59bf14abd31b9",
+      "text_length": 5066
+    },
+    "https://genesismodlist.com/ingame-issues/": {
+      "name": "Ingame Issues",
+      "sha256": "a3be00d532381169fb4eff60d418fe5e0a7807c566e5b0333355cfeb3c018942",
+      "text_length": 5668
+    },
+    "https://genesismodlist.com/incompatible-apps/": {
+      "name": "Incompatible Apps",
+      "sha256": "beb92b1338f5a7bc5a5b7802c0597a6b7fd2f797c6998c0efe6c3879f32636ff",
+      "text_length": 1792
+    },
+    "https://genesismodlist.com/controller-support/": {
+      "name": "Controller Support",
+      "sha256": "0b44a592e86e3b0a3fa8242fb8d8719f355ab39ae8ef1bf14104b817b0c42f81",
+      "text_length": 1009
+    },
+    "https://genesismodlist.com/ultrawide-support/": {
+      "name": "Ultrawide Support",
+      "sha256": "1ead3003c1bb8b3050ab761ac0be0e0dc5bd3a33f1d44041caba7989e82b6c66",
+      "text_length": 1116
+    },
+    "https://genesismodlist.com/linux-support/": {
+      "name": "Linux Support",
+      "sha256": "998bcc10744058b90a95519014fd64dc65dbc227fa45ea95fc78e2e1eda8c02b",
+      "text_length": 1810
+    },
+    "https://genesismodlist.com/modifying-install/": {
+      "name": "Modifying Install",
+      "sha256": "1f638518c9c9ff1ac9201bb9f5adf116f9167944940b3160d25cf81cf56f9d07",
+      "text_length": 5500
+    },
+    "https://genesismodlist.com/performance/": {
+      "name": "General Performance",
+      "sha256": "394ab2e9450eb35071ef936a0761494909d7492489c79e420c87071335fc6639",
+      "text_length": 3744
+    },
+    "https://genesismodlist.com/menu-lag/": {
+      "name": "Menu Lag",
+      "sha256": "f915ba46340630cf96d6db0767fce9f85f3a696adee0b7e1126964c249fa6eea",
+      "text_length": 3219
+    },
+    "https://genesismodlist.com/fps-boosts/": {
+      "name": "FPS Boosts",
+      "sha256": "ff15c145dba92cd474bf1b78df5154f5f278e2b772ea1487e8eed0f305e1cff3",
+      "text_length": 1077
+    },
+    "https://genesismodlist.com/potato-pc-settings/": {
+      "name": "Potato PC",
+      "sha256": "252f5f3c87ad510fabcec871ad4e7ad469b9a7d976f4963ad9eeae63cc34dc0f",
+      "text_length": 1452
+    },
+    "https://genesismodlist.com/settings/": {
+      "name": "Default Settings",
+      "sha256": "13663f3627dd8f7c091fe1e98e79442ed71a278624c697c6c121f6d29aac2931",
+      "text_length": 1417
+    },
+    "https://genesismodlist.com/f-a-q/": {
+      "name": "FAQ",
+      "sha256": "82c50c9e24bc3089b3a6c07a8c4dec318c0cbd3898aa9b5d16500efc7a9b0ba7",
+      "text_length": 6903
+    },
+    "https://genesismodlist.com/wiki/": {
+      "name": "Wiki",
+      "sha256": "8637bdcf8b696242e262357d523fb98c6c7286c1e64163cc1fdfc827be2ece5d",
+      "text_length": 1207
+    },
+    "https://genesismodlist.com/controls-keybinds/": {
+      "name": "Controls & Keybinds",
+      "sha256": "92d15709220b5075c6d3049b2d308c227b3b8710181c1f2e3daebe1cd6ff1a0d",
+      "text_length": 75
+    },
+    "https://genesismodlist.com/tips-tricks/": {
+      "name": "Tips & Tricks",
+      "sha256": "66f111be02308b9b708881812407f4c7162042c12d1e6891521281ac3860be26",
+      "text_length": 10701
+    },
+    "https://genesismodlist.com/quests/": {
+      "name": "Quests",
+      "sha256": "baaf720101ed16fb03b540c19844226a658ac297e585a3e919f764ceb0f9b282",
+      "text_length": 1593
+    },
+    "https://genesismodlist.com/lore/": {
+      "name": "Lore",
+      "sha256": "c52cf749de9523b69dc2d613f69fdea0cd1392ebf6523c165d00f16266c868bf",
+      "text_length": 3542
+    },
+    "https://genesismodlist.com/core-gameplay-changes/": {
+      "name": "Core Gameplay Changes",
+      "sha256": "e1f521e4a7e1aa7add9e3f73c6e965de8279ce7f49d90baa2416d5ad3fb354bc",
+      "text_length": 15991
+    },
+    "https://genesismodlist.com/the-team/": {
+      "name": "The Team",
+      "sha256": "04a5a6ecb4be8eb40250800a7606210d0f183c8a226e3d8f39633c198d5e48d7",
+      "text_length": 1289
+    },
+    "https://genesismodlist.com/volunteer/": {
+      "name": "Volunteer",
+      "sha256": "51ed2a43d1f041cf929660511dbbafbbeafabadc9f968203c77a9e39d0bd2360",
+      "text_length": 4395
+    },
+    "https://genesismodlist.com/credits/": {
+      "name": "Credits",
+      "sha256": "07bd3b5dccbfcfe0c9914de25ad7dca2a8e1d862de63e202b1501c783e73d6fb",
+      "text_length": 5420
+    },
+    "https://genesismodlist.com/donate/": {
+      "name": "Donate",
+      "sha256": "8c190f1f9c8eddfb840b32d59008496fdf1bc54d5013d16c440580572ddbfed7",
+      "text_length": 1492
+    },
+    "https://genesismodlist.com/patch-notes/": {
+      "name": "Patch Notes",
+      "sha256": "6a2a7e8768b863b1f974ef13efe6bd161b3fe815389e3c3e3104db8df99d08ae",
+      "text_length": 113
+    },
+    "https://genesismodlist.com/8-8-31/": {
+      "name": "Latest translated patch 8.8.31",
+      "sha256": "dd84a05d98574dd6087a7fae90cf8e7d1fd2b38b719f38b030040486a9e979fd",
+      "text_length": 1246
+    }
+  }
+}
