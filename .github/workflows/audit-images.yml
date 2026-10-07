@@ -1,0 +1,20 @@
+name: Audit Genesis images
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/audit_images.py"
+      - ".github/workflows/audit-images.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compare upstream and Korean guide images
+        run: python3 scripts/audit_images.py
