@@ -17,10 +17,10 @@ https://munument1.github.io/-KR-Starwars-Genesis/
 - [x] 번역 정책
 - [x] 문제 해결 목차
 - [x] Self Help **(현재 원본 Yes/No 분기 전체 + TLDR/결과 페이지)**
-- [x] Wabbajack Issues **(주요 오류 설명)**
-- [x] Mod Organizer Issues **(주요 오류 설명)**
-- [x] Ingame Issues **(주요 오류 설명)**
-- [x] Controller / Ultrawide / Linux **(1차 요약본)**
+- [x] Wabbajack Issues **(상세 번역)**
+- [x] Mod Organizer Issues **(상세 번역)**
+- [x] Ingame Issues **(상세 번역)**
+- [x] Controller **(상세 번역 + 공식 바인드 이미지)** / Ultrawide / Linux
 - [x] Incompatible Apps **(1차 요약본)**
 - [x] Modifying Install **(1차 번역)**
 - [x] General Performance / FPS Boosts / Menu Lag / Potato PC / Default Settings
@@ -36,10 +36,11 @@ https://munument1.github.io/-KR-Starwars-Genesis/
 - [x] Wiki / Gameplay / Team / Volunteer / Credits **(1차 번역)**
 - [x] Controls & Keybinds / Tips & Tricks / Quests / Lore / Difficulty
 - [x] Beginner Guides / Donate **(1차 번역)**
-- [ ] 원문 업데이트 감지 자동화 초기화/검증
+- [x] 원문 업데이트 감지 자동화 — 주요 원본 41페이지 매일 확인, 변경 시 GitHub Issue
 - [x] Uninstall / Game Keys / Old Installer Migration / Downloads Cleaning **(1차 번역)**
 - [x] Steam Auto Update / Modded Starfield Cleanup / Multiple Characters / Broken NPC / Modified Save
-- [ ] 전체 페이지 링크/모바일 표시 최종 검수
+- [x] 자동 내부 링크·페이지 메타 검증 워크플로
+- [ ] 실제 모바일 브라우저 시각 검수
 
 ## 원문 기준
 
@@ -63,3 +64,9 @@ HTML에 `<meta name="robots" content="noindex,nofollow">`를 삽입했습니다.
 ## 이미지 정책
 
 원본 가이드의 스크린샷은 저장소에 복제하지 않고 `genesismodlist.com`이 호스팅하는 이미지 URL을 직접 참조합니다. 따라서 원본 이미지가 교체되거나 삭제되면 한국어판에서도 표시되지 않을 수 있습니다.
+
+## 자동 검증
+
+- `Check Genesis upstream`: 매일 원본 주요 41페이지의 본문을 비교합니다. 변경이 감지되면 GitHub Issue를 생성/갱신합니다.
+- `Validate Korean Genesis site`: HTML 변경 시 내부 링크, title, viewport 등을 자동 검사합니다.
+- 원본 번역을 갱신한 뒤 변경 감지 기준값을 승인하려면 Actions → **Check Genesis upstream** → Run workflow에서 `accept_current=true`로 실행합니다.
