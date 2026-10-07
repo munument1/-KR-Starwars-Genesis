@@ -73,7 +73,8 @@ def canonical_image(url):
     m = re.search(r'(/wp-content/uploads/[^?#]+)', path)
     if not m:
         return None
-    return m.group(1).lower()
+    # Upload paths are case-sensitive. Lowercasing hides broken references.
+    return m.group(1)
 
 def images_in(raw):
     out = []
