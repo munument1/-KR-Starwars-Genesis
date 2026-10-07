@@ -23,3 +23,9 @@ pre code{border:0;background:transparent;padding:0;white-space:pre}
   .flow-actions{flex-direction:column}
   .flow-actions a,.flow-actions span{width:100%}
 }
+
+.icon-grid .icon-card{display:flex;flex-direction:column;align-items:flex-start;gap:8px}
+.icon-card img{width:auto;max-width:92px;height:72px;object-fit:contain;align-self:center}
+.icon-figure{max-width:360px;margin-left:auto;margin-right:auto}
+.guide-icon-large{display:block;max-width:220px;width:55vw;height:auto;margin:0 auto}
+@media(max-width:650px){.icon-card img{max-width:76px;height:62px}.guide-icon-large{max-width:170px}}
