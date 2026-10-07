@@ -11,6 +11,8 @@
 
 <div class="warning"><strong>중요:</strong> Genesis는 아직 완성형 모드리스트가 아니며 계속 업데이트됩니다. 설치 직전에는 반드시 공식 페이지의 최신 Starfield/Genesis 버전을 다시 확인하세요.</div>
 
+<a class="card" href="#korean-patch"><strong>한국어 패치를 적용하려면</strong><small>Genesis 설치를 마친 뒤, 아래 한국어 패치 적용 방법을 따라 진행하세요. Genesis 8.8.32용 v0.1.0 다운로드·설치·복원 안내.</small></a>
+
 <figure class="guide-figure"><img class="guide-image" src="https://i0.wp.com/genesismodlist.com/wp-content/uploads/2024/08/install-guide.png?resize=1640%2C200&ssl=1" alt="Genesis Requirements 배너"><figcaption>원본 Genesis 설치 가이드의 요구사항 섹션 이미지</figcaption></figure>
 
 <div class="grid"><a class="card" href="../game-keys/"><strong>Steam 키 안내</strong><small>할인 키 구매 시 Game Pass/Microsoft 버전 주의</small></a><a class="card" href="../uninstallation/"><strong>제거 방법</strong><small>Portable MO2 구조와 삭제 방법</small></a></div><h2>필수 조건</h2>
@@ -19,7 +21,7 @@
 <li><strong>Shattered Space</strong> 확장팩.</li>
 <li><strong>Starfield 1.16.244</strong> — 원문 8.8.3 기준. 최신 여부는 설치 직전 다시 확인.</li>
 <li><strong>Genesis 설치 후 새로 시작한 세이브</strong>.</li>
-<li>게임 언어를 <strong>English</strong>로 설정. 기존 Nexus 번역 모드는 사용하지 않습니다.</li>
+<li>게임 언어를 <strong>English</strong>로 설정. 일반 Starfield용 Nexus 번역 모드를 별도로 추가하지 않습니다. 이 사이트에서 배포하는 Genesis 8.8.32 전용 한국어 패치는 <a href="#korean-patch">아래 안내</a>를 따르세요.</li>
 <li>Creation Store/Vortex를 통한 기존 모드를 제거합니다. Bethesda Creation도 포함됩니다.</li>
 <li>Starfield와 Genesis 모두 <strong>내장 NVMe SSD</strong>에 설치합니다.</li>
 </ul>
@@ -60,8 +62,36 @@
 
 <li><strong>설치 시작</strong><br>Nexus Mods 로그인을 완료한 뒤 설치를 시작합니다. 중간에 닫아도 같은 설치 위치를 지정해 다시 실행하면 기존 다운로드를 재사용하며 이어갈 수 있습니다. 반복되는 다운로드 오류는 <a href="../wabbajack-issues/">Wabbajack 오류 안내</a>를 확인하세요.</li>
 
-<li><strong>GENESIS_DOCUMENTS.bat 실행</strong><br>설치 완료 후 <code>Star Wars Genesis\Game</code> 폴더에서 <code>GENESIS_DOCUMENTS.bat</code>를 실행합니다. 질문에 Y/N으로 답합니다. 파일이 없으면 <a href="../missing-files-after-install/">설치 후 파일 누락 복구</a>, 실행 오류가 나면 <a href="../manual-documents-step/">Documents 수동 설치</a>를 확인하세요.</li>
+<li><strong>GENESIS_DOCUMENTS.bat 실행</strong><br>설치 완료 후 <code>Star Wars Genesis\Game</code> 폴더에서 <code>GENESIS_DOCUMENTS.bat</code>를 실행합니다. 질문을 읽고 답하세요. 원본 BAT의 최고 그래픽 설정 질문에서 무조건 Y를 선택하지 마세요. 한국어 패치를 적용하면 이 BAT도 한국어 안내로 바뀌며, 최고 그래픽은 정확히 <code>MAX</code>를 입력해야 선택됩니다. 파일이 없으면 <a href="../missing-files-after-install/">설치 후 파일 누락 복구</a>, 실행 오류가 나면 <a href="../manual-documents-step/">Documents 수동 설치</a>를 확인하세요.</li>
 </ol>
+
+<section aria-labelledby="korean-patch">
+<h2 id="korean-patch">한국어 패치 적용 방법</h2>
+<p class="meta">커뮤니티 추가 안내 · Genesis 8.8.32용 한국어 패처 v0.1.0 · 확인일 2026-10-07</p>
+<p>Genesis 설치를 완료한 뒤 적용합니다. 플러그인과 Strings 번역, 메뉴·설정 UI, Pretendard 한글 폰트, 원형 HUD 행성 이름의 간격 보정, 추가 DLC Strings 및 한국어 BAT 안내를 포함합니다. 게임 언어는 계속 <strong>English</strong>로 유지하세요.</p>
+<div class="grid">
+<a class="card" href="https://github.com/munument1/-KR-StarWars-Genesis-Patcher/releases/tag/v0.1.0" target="_blank" rel="noopener"><strong>한국어 패처 v0.1.0 다운로드 ↗</strong><small>릴리즈의 GenesisKRPatcher-v0.1.0.zip을 내려받으세요.</small></a>
+<a class="card" href="https://github.com/munument1/-KR-StarWars-Genesis-Patcher" target="_blank" rel="noopener"><strong>패처 저장소·문제 신고 ↗</strong><small>전체 사용 안내와 확인 범위. 오역·글자 잘림은 Issues에 스크린샷과 위치를 알려주세요.</small></a>
+</div>
+<ol class="steps">
+<li><strong>게임 완전히 종료</strong><br>Starfield를 종료합니다. 화면이 없어도 작업 관리자에 <code>Starfield.exe</code>가 남아 있으면 종료된 상태가 아닙니다.</li>
+<li><strong>ZIP 압축 해제 후 EXE 실행</strong><br><code>GenesisKRPatcher-v0.1.0.zip</code>을 풀고 <code>GenesisKRPatcher.exe</code>를 실행합니다. Python, Java, xTranslator 또는 API 키를 별도로 준비할 필요가 없습니다.</li>
+<li><strong>Genesis의 Game 폴더 선택</strong><br><code>mods</code>, <code>profiles</code>, <code>ModOrganizer.ini</code>가 들어 있는 폴더를 선택합니다. 예: <code>D:\Star Wars Genesis\Game</code>. 드라이브 문자는 본인의 설치 위치에 맞춥니다. Steam의 Starfield 설치 폴더를 선택하지 마세요.</li>
+<li><strong>검사하고 패치 생성</strong><br>패처에서 <strong>검사하고 패치 생성</strong>을 누르고 완료될 때까지 기다립니다. 이 단계는 번역 파일을 준비하며 게임 파일을 변경하지 않습니다.</li>
+<li><strong>백업 후 적용</strong><br>준비 완료 후 <strong>백업 후 적용</strong>을 눌러 설치합니다. <strong>패치 생성만 하고 창을 닫으면 번역이 적용되지 않습니다.</strong> 기존 시험판 적용자도 같은 절차를 사용하면 되며, 이미 적용된 파일은 건너뜁니다.</li>
+<li><strong>MO2에서 다시 실행</strong><br><code>Star Wars Genesis Compiler</code> 프로필과 기존 Genesis/SFSE 실행 항목을 사용합니다. 처음 화면이 뜨기까지 몇 분 걸릴 수 있으므로 중복 실행하지 말고 기다리세요. 메뉴의 <strong>새 게임·불러오기·설정</strong>이 한글로 표시되는지 확인합니다.</li>
+</ol>
+<div class="notice"><strong>적용 위치:</strong> 제네시스의 <code>mods</code> 폴더와 Game 폴더의 <code>GENESIS_DOCUMENTS.bat</code>에 적용합니다. Steam 본편 <code>Starfield\Data</code>는 수정하지 않습니다. Genesis가 스타워즈식으로 바꾼 영문을 기준으로 번역합니다.</div>
+<h3>원본으로 되돌리기</h3>
+<p>게임을 완전히 종료한 뒤 패처의 <strong>백업 복원</strong>을 누르고, 선택한 Game 폴더의 <code>.genesis-kr-backups\작업번호\journal.json</code>을 선택합니다. 여러 번 나누어 적용한 경우, 모두 되돌리려면 <strong>최근 백업부터 역순으로</strong> 복원하세요. 백업 폴더는 복원이 필요할 수 있으므로 보관합니다.</p>
+<h3>적용이 안 될 때</h3>
+<ul>
+<li><strong>메뉴가 여전히 영어:</strong> 패치 생성뿐 아니라 <strong>백업 후 적용</strong>까지 완료했는지 확인하고 게임을 완전히 종료한 뒤 다시 실행합니다.</li>
+<li><strong>버전·원본 파일·모드 우선순위 오류:</strong> v0.1.0은 확인된 Genesis 8.8.32 구성용입니다. 오류를 무시하고 수동으로 덮어쓰지 말고 패처의 오류 문구를 Issues에 알려주세요.</li>
+<li><strong>Genesis 업데이트 후:</strong> 기존 패처가 새 버전과 호환된다고 가정하지 마세요. 새 버전에 대응하는 릴리즈 안내를 확인합니다.</li>
+</ul>
+<p class="meta">메뉴 번역·한글 폰트·원형 HUD 행성 이름은 실제 게임에서 확인했습니다. 전체 퀘스트 및 대사의 플레이 검증과 기존 번역 전체의 사람 교열은 완료되지 않았습니다. 이 패치는 커뮤니티 배포물이며 공식 Genesis 지원 번역으로 등록됐다는 의미는 아닙니다.</p>
+</section>
 
 <h2>설치 후 실행</h2>
 <figure class="guide-figure banner"><img class="guide-image" src="https://i0.wp.com/genesismodlist.com/wp-content/uploads/2026/07/3fb716dc2cb616ae89c8bd052db6222f.png?resize=1426%2C184&ssl=1" alt="Post-install Steps 배너"></figure>
