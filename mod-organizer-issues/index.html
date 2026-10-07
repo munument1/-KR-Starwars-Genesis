@@ -12,8 +12,7 @@
 <li><strong>다운로드 파일 차단 해제</strong><br>Genesis 설치 폴더에서 PowerShell의 <code>dir -Recurse | Unblock-File</code>을 사용하는 방법이 원문에 있습니다. 외부 다운로드 차단이 의심될 때만 사용하세요.</li>
 <li><strong>서드파티 백신 확인</strong><br>PowerShell에서 다음 명령으로 Windows Security가 인식하는 백신 목록을 볼 수 있습니다.<pre><code>Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct |
 Select-Object displayName, productState</code></pre>Defender 외 제품이 있으면 <a href="../incompatible-apps/">충돌 프로그램 안내</a>와 해당 제품의 격리 기록을 확인합니다.</li>
-<li><strong>충돌 앱 종료</strong><br>RTSS·오버레이·오디오·튜닝 도구 등이 원인인지 확인합니다.</li></ol><figure class="guide-figure narrow"><img class="guide-image" src="https://i0.wp.com/genesismodlist.com/wp-content/uploads/2026/01/d2d3fd74e31667e8b5432769e5037c72.png?resize=791%2C1117&ssl=1" alt="ModOrganizer.exe 보안 권한 설정 예시"><figcaption>원본 가이드의 ModOrganizer.exe 권한 설정 예시. 강한 권한 변경은 필요한 경우에만 적용하세요.</figcaption></figure><ol class="steps continuation" start="7">
-</ol>
+<li><strong>충돌 앱 종료</strong><br>RTSS·오버레이·오디오·튜닝 도구 등이 원인인지 확인합니다.</li></ol><figure class="guide-figure narrow"><img class="guide-image" src="https://i0.wp.com/genesismodlist.com/wp-content/uploads/2026/01/d2d3fd74e31667e8b5432769e5037c72.png?resize=791%2C1117&ssl=1" alt="ModOrganizer.exe 보안 권한 설정 예시"><figcaption>원본 가이드의 ModOrganizer.exe 권한 설정 예시. 강한 권한 변경은 필요한 경우에만 적용하세요.</figcaption></figure>
 
 <h2>Documents 경로 문제</h2>
 <p>Windows 사용자 Documents 경로에 비라틴 특수문자가 포함된 환경에서 MO2/Starfield 문제가 발생한 사례가 공식 가이드에 있습니다. 레지스트리를 직접 편집하기 전에는 현재 Documents 위치와 OneDrive 리디렉션 상태를 먼저 확인하고 백업하세요.</p>
