@@ -1,1 +1,105 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>신규 설치 | Genesis 한국어 가이드</title><link rel="stylesheet" href="../assets/style.css"></head><body><div data-nav></div><main class="wrap"><div class="kicker">INSTALL</div><h1>Star Wars Genesis 신규 설치</h1><p class="meta">원문 기준: Genesis 8.8.3 설치 페이지 · 확인일 2026-10-07 · <a href="https://genesismodlist.com/install/" target="_blank" rel="noopener">공식 원문 ↗</a></p><div class="danger"><strong>중요:</strong> 아래 조건이 맞지 않으면 설치가 실패하거나 세이브가 손상될 수 있습니다. 세부 단계는 현재 번역 진행 중이므로, 실제 설치 직전에는 반드시 공식 원문도 함께 확인하세요.</div><h2>필수 조건</h2><ul><li>Steam판 정품 Starfield — Game Pass/Microsoft Store판은 지원하지 않음</li><li>Shattered Space DLC</li><li>공식 설치 페이지가 지정하는 Starfield 버전</li><li>Genesis 설치 후 시작한 새 세이브</li><li>게임 언어: English</li><li>Creation Store/Vortex를 통한 기존 모드가 남아 있지 않을 것</li><li>Starfield와 Genesis 모두 내부 NVMe SSD에 설치</li></ul><div class="warning">공식 설치 페이지는 Steam Deck/ROG Ally를 호환 대상으로 보지 않습니다. 또한 VRAM이 낮을 경우 메뉴 지연 등 성능 문제가 발생할 수 있다고 안내합니다.</div><h2>설치 전에</h2><ul><li>Windows 페이지 파일을 공식 권장값에 맞춰 충분히 확보합니다.</li><li>설치를 방해하는 서드파티 백신·VPN·오버레이 프로그램이 있는지 확인합니다.</li><li>Starfield와 Genesis를 같은 SSD 드라이브에 둡니다.</li><li>Starfield 자동 업데이트를 끕니다.</li><li>과거 Starfield 모드 설치 흔적이 있다면 공식 초기화 안내를 먼저 따릅니다.</li></ul><h2>설치 흐름</h2><ol class="steps"><li><strong>Starfield를 Steam에서 한 번 실행</strong><br>게임을 최소 한 번 실행한 뒤 종료합니다.</li><li><strong>Genesis 설치기 실행</strong><br>공식 사이트에서 제공하는 <code>StarWarsGenesisSetup.exe</code>를 사용합니다. 다운로드 링크는 변할 수 있으므로 이 한국어판에 직접 복제하지 않고 원문 링크를 기준으로 합니다.</li><li><strong>설치 위치 지정</strong><br>공식 가이드가 지정한 <code>Star Wars Genesis</code> 폴더 구조와 드라이브 조건을 그대로 따릅니다.</li><li><strong>Wabbajack 설치 위치 확인</strong><br>Wabbajack의 Installation Location은 공식 가이드가 지정하는 <code>Star Wars Genesis\Game</code> 경로를 정확히 사용합니다.</li><li><strong>설치 진행</strong><br>NexusMods 로그인 후 Wabbajack 설치를 진행합니다. 중단되더라도 같은 위치에서 다시 실행하면 이어받을 수 있습니다.</li><li><strong>설치 후 문서 설정</strong><br>공식 가이드가 안내하는 <code>GENESIS_DOCUMENTS.bat</code> 단계와 Mod Organizer 2 실행 단계를 순서대로 진행합니다.</li></ol><h2>첫 실행</h2><p>Mod Organizer 2에서 Genesis 실행 항목을 선택하여 게임을 시작합니다. 새 게임을 시작한 뒤 캐릭터 생성과 초기 로딩이 끝나면 수동 저장하고, 게임을 완전히 재시작한 뒤 해당 저장을 불러오는 것이 공식 가이드의 흐름입니다.</p><div class="notice"><strong>번역 진행 상태:</strong> 이 페이지는 핵심 설치 흐름을 먼저 한국어화한 1차본입니다. 이미지별 설명, 문제 해결 분기, 그래픽 설정, 난이도, 백업 안내는 다음 작업에서 원문 구조에 맞춰 추가합니다.</div><div class="footer"><a href="https://genesismodlist.com/install/" target="_blank" rel="noopener">공식 설치 가이드 열기 ↗</a></div></main><script src="../assets/site.js"></script></body></html>
+<!doctype html>
+<html lang="ko"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>신규 설치 | Genesis 한국어 가이드</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head><body><div data-nav></div><main class="wrap">
+<div class="kicker">INSTALL · 1차 상세 번역</div>
+<h1>Star Wars Genesis 신규 설치</h1>
+<p class="meta">원문: Genesis 8.8.3 Installation Guide · 확인일 2026-10-07 · <a href="https://genesismodlist.com/install/" target="_blank" rel="noopener">공식 원문 ↗</a></p>
+
+<div class="warning"><strong>중요:</strong> Genesis는 아직 완성형 모드리스트가 아니며 계속 업데이트됩니다. 설치 직전에는 반드시 공식 페이지의 최신 Starfield/Genesis 버전을 다시 확인하세요.</div>
+
+<figure class="guide-figure"><img class="guide-image" src="https://i0.wp.com/genesismodlist.com/wp-content/uploads/2024/08/install-guide.png?resize=1640%2C200&ssl=1" alt="Genesis Requirements 배너"><figcaption>원본 Genesis 설치 가이드의 요구사항 섹션 이미지</figcaption></figure>
+
+<h2>필수 조건</h2>
+<ul>
+<li><strong>Steam판 정품 Starfield</strong> — Game Pass/Microsoft Store판은 지원하지 않습니다.</li>
+<li><strong>Shattered Space</strong> 확장팩.</li>
+<li><strong>Starfield 1.16.244</strong> — 원문 8.8.3 기준. 최신 여부는 설치 직전 다시 확인.</li>
+<li><strong>Genesis 설치 후 새로 시작한 세이브</strong>.</li>
+<li>게임 언어를 <strong>English</strong>로 설정. 기존 Nexus 번역 모드는 사용하지 않습니다.</li>
+<li>Creation Store/Vortex를 통한 기존 모드를 제거합니다. Bethesda Creation도 포함됩니다.</li>
+<li>Starfield와 Genesis 모두 <strong>내장 NVMe SSD</strong>에 설치합니다.</li>
+</ul>
+<p>AMD GPU 사용자는 원문에서 Starfield와 치명적 문제가 있다고 경고한 특정 드라이버 버전(26.8.1)을 피하고 최신 드라이버로 갱신하도록 안내합니다.</p>
+
+<figure class="guide-figure"><img class="guide-image" src="https://i0.wp.com/genesismodlist.com/wp-content/uploads/2026/04/star-wars-genesis-requirements.png?resize=1920%2C1080&ssl=1" alt="Genesis PC 시스템 요구사항"><figcaption>원본 시스템 요구사항 표. 최신 사양 표기는 원본이 갱신될 수 있습니다.</figcaption></figure>
+
+<div class="notice"><strong>Wabbajack이란?</strong> Genesis 제작자의 Mod Organizer 2 구성과 수백 개 모드의 설치를 자동화하는 모드리스트 설치 도구입니다. Nexus Premium이 없으면 일부 다운로드를 사용자가 직접 눌러야 하지만, 이후 구성은 자동으로 진행됩니다.</div>
+
+<h2>설치 전 준비</h2>
+<figure class="guide-figure banner"><img class="guide-image" src="https://i0.wp.com/genesismodlist.com/wp-content/uploads/2026/07/cf96ef741d42f74b2813be6c3c312282.png?resize=1981%2C206&ssl=1" alt="Pre-install Steps 배너"></figure>
+<ul>
+<li>과거 Starfield를 모딩한 적이 있다면, 특히 Vortex나 Creation Store를 사용했다면 공식 초기화 절차를 먼저 따릅니다.</li>
+<li>Windows <strong>page file을 최소 80GB</strong>로 늘립니다.</li>
+<li>서드파티 백신이 설치를 막는지 확인합니다. BitDefender/McAfee/Norton 사용자는 공식 별도 안내를 확인하세요.</li>
+<li>오버레이·성능·오디오 프로그램은 <a href="../incompatible-apps/">충돌 프로그램 안내</a>와 대조합니다.</li>
+<li>VPN이 다운로드를 막을 수 있으므로 설치 중 문제가 생기면 끕니다.</li>
+<li>Starfield와 Genesis를 <strong>같은 SSD 드라이브</strong>에 둡니다.</li>
+<li>Starfield의 자동 업데이트를 끕니다.</li>
+</ul>
+
+<h2>Wabbajack 설치</h2>
+<ol class="steps">
+<li><strong>Steam에서 Starfield를 한 번 실행</strong><br>아무 작업보다 먼저 Steam을 통해 Starfield를 최소 한 번 실행한 뒤 종료합니다.</li>
+
+<li><strong>Genesis 설치기 실행</strong><br>공식 설치 페이지에서 <code>StarWarsGenesisSetup.exe</code>를 <strong>Standard Download</strong>로 내려받아 실행합니다.
+<figure class="guide-figure"><img class="guide-image" src="https://i0.wp.com/genesismodlist.com/wp-content/uploads/2025/08/f1ca9fd5716471bf176b6d80a75e926c.png?resize=1122%2C298&ssl=1" alt="MEGA Standard download 선택 예시"><figcaption>ZIP이 아니라 Standard download를 선택하는 원본 예시.</figcaption></figure>
+</li>
+
+<li><strong>Genesis 설치 위치 지정</strong><br>드라이브 루트의 <code>Star Wars Genesis</code> 폴더 이름과 위치를 유지합니다. 드라이브 문자는 Starfield가 설치된 드라이브와 맞춥니다.
+<figure class="guide-figure narrow"><img class="guide-image" src="https://i0.wp.com/genesismodlist.com/wp-content/uploads/2025/08/5065bc1a27d360e237426ef98a602629.png?resize=710%2C581&ssl=1" alt="Genesis 설치 위치 설정 예시"><figcaption>예시에서는 K: 드라이브지만 실제로는 자신의 Starfield 드라이브 문자를 사용합니다.</figcaption></figure>
+</li>
+
+<li><strong>Wabbajack Installation Location 지정</strong><br>설치 위치는 반드시 <code>Star Wars Genesis\Game</code>입니다. <code>Star Wars Genesis</code>까지만 선택하면 안 됩니다.
+<figure class="guide-figure narrow"><img class="guide-image" src="https://i0.wp.com/genesismodlist.com/wp-content/uploads/2025/06/c3b7a9cb2a5de5be7f286723e380797b.png?resize=524%2C522&ssl=1" alt="Wabbajack Installation Location 예시"><figcaption>Installation Location과 Downloads Location의 원본 예시.</figcaption></figure>
+</li>
+
+<li><strong>설치 시작</strong><br>Nexus Mods 로그인을 완료한 뒤 설치를 시작합니다. 중간에 닫아도 같은 설치 위치를 지정해 다시 실행하면 기존 다운로드를 재사용하며 이어갈 수 있습니다. 반복되는 다운로드 오류는 <a href="../wabbajack-issues/">Wabbajack 오류 안내</a>를 확인하세요.</li>
+
+<li><strong>GENESIS_DOCUMENTS.bat 실행</strong><br>설치 완료 후 <code>Star Wars Genesis\Game</code> 폴더에서 <code>GENESIS_DOCUMENTS.bat</code>를 실행합니다. 질문에 Y/N으로 답합니다. 파일이 없거나 실행 오류가 나면 공식 설치 페이지의 Missing bat / Bat Not Working 분기를 확인하세요.</li>
+</ol>
+
+<h2>설치 후 실행</h2>
+<figure class="guide-figure banner"><img class="guide-image" src="https://i0.wp.com/genesismodlist.com/wp-content/uploads/2026/07/3fb716dc2cb616ae89c8bd052db6222f.png?resize=1426%2C184&ssl=1" alt="Post-install Steps 배너"></figure>
+
+<ol class="steps">
+<li><strong>Mod Organizer 2 실행</strong><br><code>Star Wars Genesis\Game\ModOrganizer.exe</code>를 실행합니다. NXM 링크 연결 여부를 묻는 창이 나오면 <strong>Yes</strong>를 선택합니다. 실행이 안 되면 <a href="../mod-organizer-issues/">MO2 문제 해결</a>로 이동하세요.</li>
+<li><strong>Genesis 실행</strong><br>MO2 오른쪽 위 실행 목록에서 <strong>Star Wars Genesis</strong>를 선택하고 실행합니다. 첫 실행은 몇 분 걸릴 수 있습니다. MO2가 잠겼다는 이유로 <strong>Unlock</strong>을 누르지 않습니다.</li>
+<li><strong>새 게임 시작</strong><br>메인 메뉴에서 새 게임을 시작하고 완전히 로딩될 때까지 기다립니다. 광산/동굴 같은 잘못된 위치에 스폰되면 공식 Wrong Spawn 안내를 확인합니다.</li>
+<li><strong>수동 저장 후 게임 재시작</strong><br>캐릭터 생성 뒤 수동 저장하고 게임을 완전히 종료했다가 다시 실행해 방금 만든 저장을 불러옵니다. 저장 버튼이 비활성화돼 있다면 원문은 인벤토리를 열었다 닫아보라고 안내합니다.</li>
+<li><strong>설정 확인</strong><br>그래픽 설정은 자동 구성됩니다. 임의 변경은 가능하지만 V-Sync, Dynamic Resolution, Dialogue Camera, DLSS, Frame Generation 같은 항목은 불안정성에 영향을 줄 수 있어 <a href="https://genesismodlist.com/default-settings/" target="_blank" rel="noopener">공식 권장 설정</a>을 먼저 확인하세요.</li>
+</ol>
+
+<div class="warning"><strong>Windows 11 Auto HDR:</strong> 원문은 조명 품질을 위해 Auto HDR을 끄라고 안내합니다. HDR 자체를 반드시 끄라는 뜻은 아닙니다.</div>
+
+<h2>플레이 전에 알아둘 것</h2>
+<figure class="guide-figure"><img class="guide-image" src="https://i0.wp.com/genesismodlist.com/wp-content/uploads/2026/07/c9231d247bd24eabb2bfaa76c9c2d62d.png?resize=835%2C183&ssl=1" alt="Need to Know 배너"></figure>
+<div class="grid">
+<div class="card"><strong>바디 슬라이더</strong><small>근육/체형을 과도하게 변경하면 일부 방어구가 클리핑될 수 있습니다.</small></div>
+<div class="card"><strong>수동 저장</strong><small>자동 저장만 믿지 말고 자주 수동 저장하세요.</small></div>
+<div class="card"><strong>막힌 위치</strong><small>원문 비상용 콘솔: <code>coc CityNewAtlantisLodgeInt</code></small></div>
+<div class="card"><strong>우주선 반응 없음</strong><small>게임 재시작 또는 다른 함선으로 전환해 봅니다.</small></div>
+<div class="card"><strong>제작대</strong><small>모든 Star Wars 장비가 제작대에 등장하도록 설계된 모드리스트가 아닙니다.</small></div>
+<div class="card"><strong>외부 모드 제작자</strong><small>Genesis에서 패치된 외부 모드 문제는 원 모드 제작자에게 Genesis 지원을 요구하지 않습니다.</small></div>
+</div>
+
+<h2>난이도</h2>
+<figure class="guide-figure"><img class="guide-image" src="https://i0.wp.com/genesismodlist.com/wp-content/uploads/2026/07/a823ade9fd7fe1fd68b95792b97092f8.png?resize=856%2C192&ssl=1" alt="Difficulty Settings 배너"></figure>
+<p>Genesis는 비레벨 스케일링 월드를 사용하며 기본 난이도는 Normal입니다. 난이도 변경은 MO2 왼쪽의 난이도 옵션으로 하며 <strong>한 번에 하나만</strong> 활성화합니다.</p>
+<figure class="guide-figure narrow"><img class="guide-image" src="https://i0.wp.com/genesismodlist.com/wp-content/uploads/2026/07/10ec1e043fe45ab7e36b175bee86ef5e.png?resize=530%2C176&ssl=1" alt="MO2 난이도 옵션 예시"></figure>
+<p>Immersive는 몇 발만 맞아도 사망할 수 있는 매우 높은 난이도로 안내됩니다.</p>
+
+<h2>선택 사항: HD Overhaul</h2>
+<figure class="guide-figure banner"><img class="guide-image" src="https://i0.wp.com/genesismodlist.com/wp-content/uploads/2024/08/install-guide-6.png?resize=1640%2C200&ssl=1" alt="HD Overhaul 배너"></figure>
+<p>고해상도 텍스처는 100GB 이상의 추가 용량과 높은 VRAM을 요구할 수 있습니다. 설치하려면 <a href="../hd-overhaul-install/">HD Overhaul 한국어 안내</a>를 먼저 확인하세요.</p>
+
+<h2>업데이트 대비 백업</h2>
+<p>원문은 Starfield가 자동 업데이트되어 Genesis 지원 버전에서 벗어나는 상황에 대비해 <code>SteamLibrary\steamapps\common\Starfield</code> 전체 폴더의 복사본을 따로 보관할 것을 강하게 권장합니다.</p>
+
+<div class="notice"><strong>이미지 처리 원칙:</strong> 위 이미지는 Genesis 공식 사이트가 호스팅하는 원본 스크린샷을 직접 참조합니다. 이 저장소에 원본 이미지를 복제해 넣지 않습니다.</div>
+
+<div class="footer"><a href="https://genesismodlist.com/install/" target="_blank" rel="noopener">공식 설치 가이드 열기 ↗</a></div>
+</main><script src="../assets/site.js"></script></body></html>
