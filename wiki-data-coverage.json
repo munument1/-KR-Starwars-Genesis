@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-10-07",
+  "total_rows": 129,
+  "pages": [
+    {
+      "page": "resources/index.html",
+      "rows": 26,
+      "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRba9DArZUu9X5PfIs6re60cOZViUIifIQ80vNyTbklaaRNJ-ar_mIR1Oro9_gdkg/pubhtml?gid=886909261&single=true&widget=true&headers=false",
+      "checked_at": "2026-10-07",
+      "scope": "complete replacement-material table",
+      "source_sha256": "77e425cf37e30ea29ca479ed36464614c57c88db9570c9997c1dd3a5abee148e"
+    },
+    {
+      "page": "force-powers/index.html",
+      "rows": 9,
+      "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4RK_jOyFyTkJq5dd25HF27xeQUyGXxccypCite1NA769dohMdpMuW-TkFbW644kB2TNiQLSzUCCVe/pubhtml?gid=1301723919&single=true&widget=true&headers=false",
+      "checked_at": "2026-10-07",
+      "scope": "main and additional player powers",
+      "source_sha256": "3b7cc554037cd1b23ef02ec4b07832592d569fea4f56a8e4f15f9e8500bb6e34"
+    },
+    {
+      "page": "armors/index.html",
+      "rows": 17,
+      "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRba9DArZUu9X5PfIs6re60cOZViUIifIQ80vNyTbklaaRNJ-ar_mIR1Oro9_gdkg/pubhtml?gid=711154064&single=true&widget=true&headers=false",
+      "checked_at": "2026-10-07",
+      "scope": "representative entries",
+      "source_sha256": "411b955852b7df65ca8ded872dbf61e740253776a9617279a31c2b4110ce4478"
+    },
+    {
+      "page": "armor-balance/index.html",
+      "rows": 20,
+      "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRba9DArZUu9X5PfIs6re60cOZViUIifIQ80vNyTbklaaRNJ-ar_mIR1Oro9_gdkg/pubhtml?gid=2026648647&single=true&widget=true&headers=false&chrome=false",
+      "checked_at": "2026-10-07",
+      "scope": "representative entries",
+      "source_sha256": "b7c21928eef0b8e64d1dd6b3d629e610174b28d6007ac4f9c6a44ecda93e8f6c"
+    },
+    {
+      "page": "weapon-wiki/index.html",
+      "rows": 20,
+      "source_url": "https://genesismodlist.com/weapon-wiki/",
+      "checked_at": "2026-10-07",
+      "scope": "representative entries",
+      "source_sha256": "6ef4e6d153c1b40f9c7fc87246e82ae9a97efa4b6593fa0c8563790399ea547c"
+    },
+    {
+      "page": "factions/index.html",
+      "rows": 15,
+      "source_url": "https://genesismodlist.com/factions/",
+      "checked_at": "2026-10-07",
+      "scope": "all listed factions",
+      "source_sha256": "9b0b0dc3db8c9076fc24594eb1a9f58d89d014f2c6722c14cf77a58e8eec5553"
+    },
+    {
+      "page": "shipyard-vendors/index.html",
+      "rows": 12,
+      "source_url": "https://genesismodlist.com/shipyard-vendors/",
+      "checked_at": "2026-10-07",
+      "scope": "all listed regional ships",
+      "source_sha256": "f6cd204fedd721bef5d181318f5855cbe6fd783ef0adfeea9d7b48354f096642"
+    },
+    {
+      "page": "clothing/index.html",
+      "rows": 10,
+      "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRba9DArZUu9X5PfIs6re60cOZViUIifIQ80vNyTbklaaRNJ-ar_mIR1Oro9_gdkg/pubhtml?gid=1894340937&single=true&widget=true&headers=false",
+      "checked_at": "2026-10-07",
+      "scope": "representative entries",
+      "source_sha256": "777dc7260a527072f2353538fd72696e579720448339e0607604a07ea87cee78"
+    }
+  ],
+  "notes": "Public source facts presented in Korean with source identifiers preserved. Representative equipment lists are not exhaustive; Korean labels may differ from installed translations."
+}

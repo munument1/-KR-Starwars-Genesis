@@ -74,3 +74,7 @@ HTML에 `<meta name="robots" content="noindex,nofollow">`를 삽입했습니다.
 - `Check Genesis upstream`: 매일 원본 74페이지의 본문을 비교합니다. 변경이 감지되면 GitHub Issue를 생성/갱신합니다.
 - `Validate Korean Genesis site`: HTML 변경 시 내부 링크, title, viewport 등을 자동 검사합니다.
 - 원본 번역을 갱신한 뒤 변경 감지 기준값을 승인하려면 Actions → **Check Genesis upstream** → Run workflow에서 `accept_current=true`로 실행합니다.
+
+## Wiki 자료 표 보완
+
+2026-10-07: Wiki 8개 문서에 검색 가능한 한국어 표 129개 항목을 추가했습니다. 포스 능력·자원·진영·지역별 함선을 정리하고, 무기·방어구·방어 수치·의류는 대표 항목을 제공합니다. 한국어 명칭과 영문 검색어·콘솔 ID를 유지하며, 원문 표와 버전에 따른 차이는 각 문서에 표시합니다. 출처와 표 범위는 `wiki-data-coverage.json`을 참고하세요.

@@ -829,5 +829,6 @@
       "full_translation": false
     }
   ],
-  "note": "Concise factual supplements, not full literal translations. Original media retained; untranslated image/video contents not claimed complete."
+  "note": "Concise factual supplements, not full literal translations. Original media retained; untranslated image/video contents not claimed complete.",
+  "wiki_data_coverage": "wiki-data-coverage.json"
 }
