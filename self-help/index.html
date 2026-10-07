@@ -1,14 +1,30 @@
-<!doctype html>
-<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>셀프 진단 안내 | Genesis 한국어 가이드</title><link rel="stylesheet" href="../assets/style.css"></head>
-<body><div data-nav></div><main class="wrap"><div class="kicker">SELF HELP</div><h1>셀프 진단 안내</h1><p class="meta">원문 확인: 2026-10-07 · <a href="https://genesismodlist.com/self-help/" rel="noopener" target="_blank">공식 원문 ↗</a></p>
-<p class="lead">Genesis 설치를 마친 뒤 실행 문제가 생겼다면 공식 사이트의 예/아니오 진단을 이용할 수 있습니다.</p>
-<div class="warning"><strong>대상:</strong> Wabbajack 설치가 정상 종료됐고 Mod Organizer 2까지 열리는 사용자입니다. 설치가 완료되지 않았다면 <a href="../wabbajack-issues/">Wabbajack 오류</a>부터 확인하세요.</div>
-<h2>진단 시작</h2>
-<ol class="steps"><li>공식 사이트의 <a href="https://genesismodlist.com/self-help/" target="_blank" rel="noopener">Self Help 첫 화면</a>을 엽니다.</li><li><a href="https://genesismodlist.com/self-help-01/" target="_blank" rel="noopener">START</a>를 누른 뒤 첫 번째 오류 팝업 그림이 자신의 화면과 같은지 확인합니다.</li><li>해당하면 <strong>YES</strong>, 해당하지 않으면 <strong>NO</strong>를 눌러 다음 분기로 이동합니다.</li><li>진단 끝에서 제시하는 해결책을 실행할 때는 변경 전 설정과 오류 로그를 기록해 둡니다.</li></ol>
-<h2>다른 곳에서 바로 찾기</h2>
-<div class="grid">
-<a class="card" href="../wabbajack-issues/"><strong>설치·다운로드 중단</strong><small>Wabbajack 설치가 끝나지 않았을 때</small></a>
-<a class="card" href="../mod-organizer-issues/"><strong>MO2 / SFSE 실행 실패</strong><small>모드 관리자가 열리지 않거나 실행 오류가 날 때</small></a>
-<a class="card" href="../ingame-issues/"><strong>게임 안의 문제</strong><small>저장·화면·퀘스트·우주선 문제</small></a>
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Self Help | Genesis 한국어 가이드</title><link rel="stylesheet" href="../assets/style.css"></head><body><div data-nav></div><main class="wrap">
+<div class="kicker">SELF HELP · 분기 번역 진행 중</div><h1>Genesis 셀프 진단</h1>
+<p class="meta">원문 확인: 2026-10-07 · <a href="https://genesismodlist.com/self-help/" target="_blank" rel="noopener">공식 Self Help ↗</a></p>
+<figure class="guide-figure"><img class="guide-image" src="https://i0.wp.com/genesismodlist.com/wp-content/uploads/2024/12/faq-general-questions-2.png?resize=1640%2C624&ssl=1" alt="Star Wars Genesis Self Help 배너"></figure>
+
+<p class="lead">Wabbajack 설치를 정상적으로 끝냈고 Mod Organizer 2까지 열 수 있지만 Genesis 실행이나 화면에 문제가 있는 사용자를 위한 진단 흐름입니다.</p>
+<div class="warning">Wabbajack 자체가 설치를 끝내지 못했다면 <a href="../wabbajack-issues/">Wabbajack 설치 오류</a>부터 확인하세요.</div>
+
+<h2>현재 한국어화된 진단 흐름</h2>
+<div class="flow">
+<div class="flow-node"><strong>1. 실행할 때 SFSE Loader 팝업이 뜨나?</strong><div class="flow-actions"><a href="../sfse-loader-issues/">예 → SFSE Loader 오류</a><a href="#crash">아니오 → 다음 질문</a></div></div>
+<div class="flow-node" id="crash"><strong>2. 게임 실행/새 게임 시작 직후 크래시하나?</strong><div class="flow-actions"><a href="#dlc">예 → DLC 확인</a><a href="#invisible">아니오 → 다음 질문</a></div></div>
+<div class="flow-node" id="dlc"><strong>3. Shattered Space DLC가 설치되어 있나?</strong><div class="flow-actions"><a href="../launch-crashing/">예 → 실행 크래시 점검</a><span>아니오 → DLC 설치 후 MO2 재시작</span></div></div>
+<div class="flow-node" id="invisible"><strong>4. NPC의 몸이 보이지 않나?</strong><div class="flow-actions"><a href="../manual-documents-step/">예 → Documents 수동 설치</a><span>아니오 → 원본의 다음 Self Help 분기로 이동</span></div></div>
 </div>
-<div class="notice">원본의 진단은 여러 개의 개별 페이지와 이미지로 구성됩니다. 모든 분기를 검수하기 전까지 이 한국어판은 자체 질문 결과를 만들어 내지 않고, 원본 버튼으로 연결합니다.</div><div class="footer"><p>이 페이지는 비공식 한국어 안내입니다. 실제 설치 전에 원문의 최신 지침을 확인하세요.</p><a href="../support/">문제 해결 목차로 돌아가기 →</a></div></main><script src="../assets/site.js"></script></body></html>
+
+<h2>Shattered Space가 빠졌을 때의 예시</h2>
+<figure class="guide-figure"><img class="guide-image" src="https://i0.wp.com/genesismodlist.com/wp-content/uploads/2026/06/untidffdsdfssfdtled.png?resize=2059%2C1053&ssl=1" alt="MO2에서 플러그인 누락 경고 표시 예시"><figcaption>원본 Self Help의 예시. 플러그인 탭의 빨간 경고를 확인합니다. 맨 아래 경고 하나는 원문에서 정상으로 보라고 안내합니다.</figcaption></figure>
+
+<h2>바로가기</h2>
+<div class="grid">
+<a class="card" href="../sfse-loader-issues/"><strong>SFSE Loader 오류</strong><small>버전 불일치·실행 파일 격리 점검</small></a>
+<a class="card" href="../launch-crashing/"><strong>실행 즉시 크래시</strong><small>DLC·백신·충돌 앱·바닐라 비교</small></a>
+<a class="card" href="../manual-documents-step/"><strong>NPC 몸이 안 보임</strong><small>Documents/BAT 설정 수동 적용</small></a>
+<a class="card" href="../mod-organizer-issues/"><strong>MO2 일반 문제</strong><small>런타임·권한·실행 문제</small></a>
+</div>
+
+<div class="notice"><strong>진행 상태:</strong> 원본 Self Help의 모든 Yes/No 분기를 아직 옮긴 것은 아닙니다. 한국어로 완료되지 않은 분기는 임의 해결책을 만들지 않고 원본 흐름을 유지합니다.</div>
+<div class="footer"><a href="../support/">문제 해결 목차로 돌아가기 →</a></div>
+</main><script src="../assets/site.js"></script></body></html>
