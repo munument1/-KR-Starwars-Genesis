@@ -1,0 +1,108 @@
+name: Check Genesis upstream
+
+on:
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+    inputs:
+      accept_current:
+        description: "현재 원본 상태를 새 기준값으로 승인"
+        required: false
+        default: false
+        type: boolean
+  push:
+    branches: [main]
+    paths:
+      - "upstream-sources.json"
+      - "scripts/check_upstream.py"
+      - ".github/workflows/upstream-watch.yml"
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Compare tracked Genesis pages
+        id: check
+        shell: bash
+        env:
+          ACCEPT_CURRENT: ${{ github.event_name == 'workflow_dispatch' && inputs.accept_current || false }}
+        run: |
+          set -euo pipefail
+          args=(--sources upstream-sources.json --baseline upstream-baseline.json)
+          if [ "$ACCEPT_CURRENT" = "true" ]; then
+            args+=(--accept)
+          fi
+          python3 scripts/check_upstream.py "${args[@]}"
+
+      - name: Write job summary
+        shell: bash
+        env:
+          SUMMARY: ${{ steps.check.outputs.summary }}
+        run: |
+          {
+            echo "## Genesis 원본 변경 감지"
+            echo
+            printf '%s\n' "$SUMMARY"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit initialized or accepted baseline
+        if: steps.check.outputs.initialized == 'true' || steps.check.outputs.accepted == 'true'
+        shell: bash
+        run: |
+          if git diff --quiet -- upstream-baseline.json && git ls-files --error-unmatch upstream-baseline.json >/dev/null 2>&1; then
+            echo "No baseline changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add upstream-baseline.json
+          git commit -m "Update Genesis upstream baseline"
+          git push
+
+      - name: Open or update upstream-change issue
+        if: steps.check.outputs.changed == 'true'
+        uses: actions/github-script@v7
+        env:
+          CHANGE_SUMMARY: ${{ steps.check.outputs.summary }}
+        with:
+          script: |
+            const title = "[Upstream] Genesis 원본 변경 감지";
+            const summary = process.env.CHANGE_SUMMARY || "원본 변경이 감지되었습니다.";
+            const runUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const body = `${summary}
+
+            ---
+            자동 확인: ${new Date().toISOString()}
+            Actions: ${runUrl}`;
+
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+              per_page: 100
+            });
+            const existing = issues.find(i => !i.pull_request && i.title === title);
+            if (existing) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body
+              });
+              core.info(`Updated existing issue #${existing.number}`);
+            } else {
+              const { data: issue } = await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body
+              });
+              core.info(`Created issue #${issue.number}`);
+            }
